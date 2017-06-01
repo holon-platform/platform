@@ -1,0 +1,100 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>com.holon-platform</groupId>
+		<artifactId>platform-root</artifactId>
+		<version>5.0.0-SNAPSHOT</version>
+	</parent>
+
+	<artifactId>bom</artifactId>
+
+	<packaging>pom</packaging>
+
+	<name>${project.groupId}:${project.artifactId}</name>
+	<description>Holon platform BOM (Bill Of Materials)</description>
+
+	<url>https://holon-platform.com</url>
+
+	<dependencyManagement>
+		<dependencies>
+
+			<!-- Holon Core -->
+			<dependency>
+				<groupId>com.holon-platform.core</groupId>
+				<artifactId>holon-bom</artifactId>
+				<version>${holon.core.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+
+			<!-- Holon JSON -->
+			<dependency>
+				<groupId>com.holon-platform.json</groupId>
+				<artifactId>holon-json-bom</artifactId>
+				<version>${holon.json.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+
+			<!-- Holon JAX-RS -->
+			<dependency>
+				<groupId>com.holon-platform.jaxrs</groupId>
+				<artifactId>holon-jaxrs-bom</artifactId>
+				<version>${holon.jaxrs.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+			
+			<!-- Holon JDBC -->
+			<dependency>
+				<groupId>com.holon-platform.jdbc</groupId>
+				<artifactId>holon-jdbc-bom</artifactId>
+				<version>${holon.jdbc.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+			
+			<!-- Holon JDBC Datastore -->
+			<dependency>
+				<groupId>com.holon-platform.jdbc</groupId>
+				<artifactId>holon-datastore-jdbc-bom</artifactId>
+				<version>${holon.jdbc.datastore.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+
+			<!-- Holon JPA Datastore -->
+			<dependency>
+				<groupId>com.holon-platform.jpa</groupId>
+				<artifactId>holon-datastore-jpa-bom</artifactId>
+				<version>${holon.jpa.datastore.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+
+			<!-- Holon MongoDB Datastore -->
+			<!-- 
+			<dependency>
+				<groupId>com.holon-platform.mongo</groupId>
+				<artifactId>holon-datastore-mongo-bom</artifactId>
+				<version>${holon.mongo.datastore.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+			-->
+
+			<!-- Holon Vaadin -->
+			<dependency>
+				<groupId>com.holon-platform.vaadin</groupId>
+				<artifactId>holon-vaadin-bom</artifactId>
+				<version>${holon.vaadin.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+
+		</dependencies>
+	</dependencyManagement>
+
+</project>

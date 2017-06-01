@@ -1,0 +1,159 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>com.holon-platform</groupId>
+		<artifactId>platform-root</artifactId>
+		<version>5.0.0-SNAPSHOT</version>
+	</parent>
+
+	<artifactId>documentation</artifactId>
+	<packaging>jar</packaging>
+
+	<name>${project.groupId}:${project.artifactId}</name>
+	<description>Holon platform documentation</description>
+
+	<url>https://holon-platform.com</url>
+
+	<build>
+		<resources>
+			<resource>
+				<directory>${project.basedir}/src/docs/asciidoc</directory>
+			</resource>
+		</resources>
+
+		<plugins>
+
+			<!-- Assembly docs -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-assembly-plugin</artifactId>
+				<configuration>
+					<appendAssemblyId>false</appendAssemblyId>
+					<finalName>${project.artifactId}-${project.version}</finalName>
+					<descriptors>
+						<descriptor>${project.basedir}/platform-documentation-assembly.xml</descriptor>
+					</descriptors>
+				</configuration>
+				<executions>
+					<execution>
+						<id>assembly-docs</id>
+						<phase>package</phase>
+						<goals>
+							<goal>single</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+
+	<dependencies>
+		<!-- Documentation -->
+		<dependency>
+			<groupId>com.holon-platform.core</groupId>
+			<artifactId>documentation-core</artifactId>
+			<version>${holon.core.version}</version>
+			<type>zip</type>
+		</dependency>
+		<dependency>
+			<groupId>com.holon-platform.json</groupId>
+			<artifactId>documentation-json</artifactId>
+			<version>${holon.json.version}</version>
+			<type>zip</type>
+		</dependency>
+		<dependency>
+			<groupId>com.holon-platform.jaxrs</groupId>
+			<artifactId>documentation-jaxrs</artifactId>
+			<version>${holon.jaxrs.version}</version>
+			<type>zip</type>
+		</dependency>
+		<dependency>
+			<groupId>com.holon-platform.jdbc</groupId>
+			<artifactId>documentation-jdbc</artifactId>
+			<version>${holon.jdbc.version}</version>
+			<type>zip</type>
+		</dependency>
+		<dependency>
+			<groupId>com.holon-platform.jdbc</groupId>
+			<artifactId>documentation-datastore-jdbc</artifactId>
+			<version>${holon.jdbc.datastore.version}</version>
+			<type>zip</type>
+		</dependency>
+		<dependency>
+			<groupId>com.holon-platform.jpa</groupId>
+			<artifactId>documentation-datastore-jpa</artifactId>
+			<version>${holon.jpa.datastore.version}</version>
+			<type>zip</type>
+		</dependency>
+		<!-- 
+		<dependency>
+			<groupId>com.holon-platform.mongo</groupId>
+			<artifactId>documentation-datastore-mongo</artifactId>
+			<version>${holon.mongo.datastore.version}</version>
+			<type>zip</type>
+		</dependency>
+		 -->
+		<dependency>
+			<groupId>com.holon-platform.vaadin</groupId>
+			<artifactId>documentation-vaadin</artifactId>
+			<version>${holon.vaadin.version}</version>
+			<type>zip</type>
+		</dependency>
+
+		<!-- Javadocs -->
+		<dependency>
+			<groupId>com.holon-platform.core</groupId>
+			<artifactId>holon-root</artifactId>
+			<version>${holon.core.version}</version>
+			<type>zip</type>
+		</dependency>
+		<dependency>
+			<groupId>com.holon-platform.json</groupId>
+			<artifactId>holon-json-root</artifactId>
+			<version>${holon.json.version}</version>
+			<type>zip</type>
+		</dependency>
+		<dependency>
+			<groupId>com.holon-platform.jaxrs</groupId>
+			<artifactId>holon-jaxrs-root</artifactId>
+			<version>${holon.jaxrs.version}</version>
+			<type>zip</type>
+		</dependency>
+		<dependency>
+			<groupId>com.holon-platform.jdbc</groupId>
+			<artifactId>holon-jdbc-root</artifactId>
+			<version>${holon.jdbc.version}</version>
+			<type>zip</type>
+		</dependency>
+		<dependency>
+			<groupId>com.holon-platform.jdbc</groupId>
+			<artifactId>holon-datastore-jdbc-root</artifactId>
+			<version>${holon.jdbc.datastore.version}</version>
+			<type>zip</type>
+		</dependency>
+		<dependency>
+			<groupId>com.holon-platform.jpa</groupId>
+			<artifactId>holon-datastore-jpa-root</artifactId>
+			<version>${holon.jpa.datastore.version}</version>
+			<type>zip</type>
+		</dependency>
+		<!-- 
+		<dependency>
+			<groupId>com.holon-platform.mongo</groupId>
+			<artifactId>holon-datastore-mongo-root</artifactId>
+			<version>${holon.mongo.datastore.version}</version>
+			<type>zip</type>
+		</dependency>
+		-->
+		<dependency>
+			<groupId>com.holon-platform.vaadin</groupId>
+			<artifactId>holon-vaadin-root</artifactId>
+			<version>${holon.vaadin.version}</version>
+			<type>zip</type>
+		</dependency>
+
+	</dependencies>
+
+</project>

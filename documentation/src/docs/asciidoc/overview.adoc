@@ -1,0 +1,50 @@
+= Holon Platform
+:revnumber: {project-version}
+
+Todo documentation.
+
+== Introduction
+
+The introduction goes here.
+
+TODO (remove) - web site structure:
+
+docs
+  - api
+    - holon-core/
+    - holon-json/
+    - etc.
+  
+  - reference
+    - holon-core/
+    - holon-json/
+    - etc.
+
+== Modules
+
+* link:holon-core/overview.html[Core]
++
+Core: resources, properties, datastores, internationalization, ...
+
+* link:holon-json/overview.html[JSON support]
++
+JSON support
+
+* link:holon-jaxrs/overview.html[JAX-RS integration]
++
+JAX-RS and REST
+
+* Datastores
+** link:holon-datastore-jdbc/overview.html[JDBC Datastore]
++
+JPA Datastore
+** link:holon-datastore-jpa/overview.html[JPA Datastore]
++
+JPA Datastore
+** link:holon-datastore-mongo/overview.html[MongoDB Datastore]
++
+MongoDB Datastore
+
+* link:holon-vaadin/overview.html[Vaadin UI]
++
+Vaadin UI
