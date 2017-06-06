@@ -59,6 +59,8 @@
 		<java.compiler.source>1.8</java.compiler.source>
 		<java.compiler.target>1.8</java.compiler.target>
 
+		<bintray.package>platform</bintray.package>
+
 		<!-- Core -->
 		<holon.core.version>5.0.0-SNAPSHOT</holon.core.version>
 		<!-- JSON -->
