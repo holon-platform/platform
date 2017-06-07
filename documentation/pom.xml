@@ -16,6 +16,10 @@
 
 	<url>https://holon-platform.com</url>
 
+	<properties>
+		<maven.javadoc.skip>true</maven.javadoc.skip>
+	</properties>
+
 	<build>
 		<resources>
 			<resource>
@@ -87,14 +91,8 @@
 			<version>${holon.jpa.datastore.version}</version>
 			<type>zip</type>
 		</dependency>
-		<!-- 
-		<dependency>
-			<groupId>com.holon-platform.mongo</groupId>
-			<artifactId>documentation-datastore-mongo</artifactId>
-			<version>${holon.mongo.datastore.version}</version>
-			<type>zip</type>
-		</dependency>
-		 -->
+		<!-- <dependency> <groupId>com.holon-platform.mongo</groupId> <artifactId>documentation-datastore-mongo</artifactId> 
+			<version>${holon.mongo.datastore.version}</version> <type>zip</type> </dependency> -->
 		<dependency>
 			<groupId>com.holon-platform.vaadin</groupId>
 			<artifactId>documentation-vaadin</artifactId>
@@ -139,14 +137,8 @@
 			<version>${holon.jpa.datastore.version}</version>
 			<type>zip</type>
 		</dependency>
-		<!-- 
-		<dependency>
-			<groupId>com.holon-platform.mongo</groupId>
-			<artifactId>holon-datastore-mongo-root</artifactId>
-			<version>${holon.mongo.datastore.version}</version>
-			<type>zip</type>
-		</dependency>
-		-->
+		<!-- <dependency> <groupId>com.holon-platform.mongo</groupId> <artifactId>holon-datastore-mongo-root</artifactId> 
+			<version>${holon.mongo.datastore.version}</version> <type>zip</type> </dependency> -->
 		<dependency>
 			<groupId>com.holon-platform.vaadin</groupId>
 			<artifactId>holon-vaadin-root</artifactId>

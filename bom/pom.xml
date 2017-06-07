@@ -17,6 +17,10 @@
 
 	<url>https://holon-platform.com</url>
 
+	<properties>
+		<maven.javadoc.skip>true</maven.javadoc.skip>
+	</properties>
+
 	<dependencyManagement>
 		<dependencies>
 
@@ -46,7 +50,7 @@
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
-			
+
 			<!-- Holon JDBC -->
 			<dependency>
 				<groupId>com.holon-platform.jdbc</groupId>
@@ -55,7 +59,7 @@
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
-			
+
 			<!-- Holon JDBC Datastore -->
 			<dependency>
 				<groupId>com.holon-platform.jdbc</groupId>
@@ -75,15 +79,9 @@
 			</dependency>
 
 			<!-- Holon MongoDB Datastore -->
-			<!-- 
-			<dependency>
-				<groupId>com.holon-platform.mongo</groupId>
-				<artifactId>holon-datastore-mongo-bom</artifactId>
-				<version>${holon.mongo.datastore.version}</version>
-				<type>pom</type>
-				<scope>import</scope>
-			</dependency>
-			-->
+			<!-- <dependency> <groupId>com.holon-platform.mongo</groupId> <artifactId>holon-datastore-mongo-bom</artifactId> 
+				<version>${holon.mongo.datastore.version}</version> <type>pom</type> <scope>import</scope> 
+				</dependency> -->
 
 			<!-- Holon Vaadin -->
 			<dependency>
