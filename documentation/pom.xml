@@ -37,7 +37,7 @@
 					<appendAssemblyId>false</appendAssemblyId>
 					<finalName>${project.artifactId}-${project.version}</finalName>
 					<descriptors>
-						<descriptor>${project.basedir}/platform-documentation-assembly.xml</descriptor>
+						<descriptor>src/main/assembly/platform-documentation-assembly.xml</descriptor>
 					</descriptors>
 				</configuration>
 				<executions>
