@@ -35,56 +35,65 @@
 		<!-- Javadocs -->
 		<dependencySet>
 			<includes>
-				<include>*:holon-root:zip:*</include>
+				<include>*:holon-root:jar:javadoc</include>
 			</includes>
 			<outputDirectory>api/holon-core</outputDirectory>
 			<unpack>true</unpack>
 		</dependencySet>
 		<dependencySet>
 			<includes>
-				<include>*:holon-json-root:zip:*</include>
+				<include>*:holon-json-root:jar:javadoc</include>
 			</includes>
 			<outputDirectory>api/holon-json</outputDirectory>
 			<unpack>true</unpack>
 		</dependencySet>
 		<dependencySet>
 			<includes>
-				<include>*:holon-jaxrs-root:zip:*</include>
+				<include>*:holon-jaxrs-root:jar:javadoc</include>
 			</includes>
 			<outputDirectory>api/holon-jaxrs</outputDirectory>
 			<unpack>true</unpack>
 		</dependencySet>
 		<dependencySet>
 			<includes>
-				<include>*:holon-jdbc-root:zip:*</include>
+				<include>*:holon-jdbc-root:jar:javadoc</include>
 			</includes>
 			<outputDirectory>api/holon-jdbc</outputDirectory>
 			<unpack>true</unpack>
 		</dependencySet>
 		<dependencySet>
 			<includes>
-				<include>*:holon-datastore-jdbc-root:zip:*</include>
+				<include>*:holon-datastore-jdbc-root:jar:javadoc</include>
 			</includes>
 			<outputDirectory>api/holon-datastore-jdbc</outputDirectory>
 			<unpack>true</unpack>
 		</dependencySet>
 		<dependencySet>
 			<includes>
-				<include>*:holon-datastore-jpa-root:zip:*</include>
+				<include>*:holon-datastore-jpa-root:jar:javadoc</include>
 			</includes>
 			<outputDirectory>api/holon-datastore-jpa</outputDirectory>
 			<unpack>true</unpack>
 		</dependencySet>
 		<dependencySet>
 			<includes>
-				<include>*:holon-datastore-mongo-root:zip:*</include>
+				<include>*:holon-datastore-jpa-querydsl-root:jar:javadoc</include>
+			</includes>
+			<outputDirectory>api/holon-datastore-jpa-querydsl</outputDirectory>
+			<unpack>true</unpack>
+		</dependencySet>
+		<!-- 
+		<dependencySet>
+			<includes>
+				<include>*:holon-datastore-mongo-root:jar:javadoc</include>
 			</includes>
 			<outputDirectory>api/holon-datastore-mongo</outputDirectory>
 			<unpack>true</unpack>
 		</dependencySet>
+		-->
 		<dependencySet>
 			<includes>
-				<include>*:holon-vaadin-root:zip:*</include>
+				<include>*:holon-vaadin-root:jar:javadoc</include>
 			</includes>
 			<outputDirectory>api/holon-vaadin</outputDirectory>
 			<unpack>true</unpack>
