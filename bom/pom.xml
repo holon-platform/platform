@@ -77,6 +77,13 @@
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
+			<dependency>
+				<groupId>com.holon-platform.jpa</groupId>
+				<artifactId>holon-datastore-jpa-querydsl-bom</artifactId>
+				<version>${holon.jpa.datastore.querydsl.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
 
 			<!-- Holon MongoDB Datastore -->
 			<!-- <dependency> <groupId>com.holon-platform.mongo</groupId> <artifactId>holon-datastore-mongo-bom</artifactId> 
