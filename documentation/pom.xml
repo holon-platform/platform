@@ -18,6 +18,8 @@
 
 	<properties>
 		<maven.javadoc.skip>true</maven.javadoc.skip>
+		<skipTests>true</skipTests>
+		<jacoco.skip>true</jacoco.skip>
 	</properties>
 
 	<build>
@@ -59,50 +61,56 @@
 			<groupId>com.holon-platform.core</groupId>
 			<artifactId>documentation-core</artifactId>
 			<version>${holon.core.version}</version>
+			<classifier>documentation</classifier>
 			<type>zip</type>
 		</dependency>
 		<dependency>
 			<groupId>com.holon-platform.json</groupId>
 			<artifactId>documentation-json</artifactId>
 			<version>${holon.json.version}</version>
+			<classifier>documentation</classifier>
 			<type>zip</type>
 		</dependency>
 		<dependency>
 			<groupId>com.holon-platform.jaxrs</groupId>
 			<artifactId>documentation-jaxrs</artifactId>
 			<version>${holon.jaxrs.version}</version>
+			<classifier>documentation</classifier>
 			<type>zip</type>
 		</dependency>
 		<dependency>
 			<groupId>com.holon-platform.jdbc</groupId>
 			<artifactId>documentation-jdbc</artifactId>
 			<version>${holon.jdbc.version}</version>
+			<classifier>documentation</classifier>
 			<type>zip</type>
 		</dependency>
 		<dependency>
 			<groupId>com.holon-platform.jdbc</groupId>
 			<artifactId>documentation-datastore-jdbc</artifactId>
 			<version>${holon.jdbc.datastore.version}</version>
+			<classifier>documentation</classifier>
 			<type>zip</type>
 		</dependency>
 		<dependency>
 			<groupId>com.holon-platform.jpa</groupId>
 			<artifactId>documentation-datastore-jpa</artifactId>
 			<version>${holon.jpa.datastore.version}</version>
+			<classifier>documentation</classifier>
 			<type>zip</type>
 		</dependency>
 		<dependency>
 			<groupId>com.holon-platform.jpa</groupId>
 			<artifactId>documentation-datastore-jpa-querydsl</artifactId>
 			<version>${holon.jpa.datastore.querydsl.version}</version>
+			<classifier>documentation</classifier>
 			<type>zip</type>
 		</dependency>
-		<!-- <dependency> <groupId>com.holon-platform.mongo</groupId> <artifactId>documentation-datastore-mongo</artifactId> 
-			<version>${holon.mongo.datastore.version}</version> <type>zip</type> </dependency> -->
 		<dependency>
 			<groupId>com.holon-platform.vaadin</groupId>
 			<artifactId>documentation-vaadin</artifactId>
 			<version>${holon.vaadin.version}</version>
+			<classifier>documentation</classifier>
 			<type>zip</type>
 		</dependency>
 
@@ -111,51 +119,57 @@
 			<groupId>com.holon-platform.core</groupId>
 			<artifactId>holon-root</artifactId>
 			<version>${holon.core.version}</version>
-			<type>pom</type>
+			<classifier>apidocs</classifier>
+			<type>zip</type>
 		</dependency>
 		<dependency>
 			<groupId>com.holon-platform.json</groupId>
 			<artifactId>holon-json-root</artifactId>
 			<version>${holon.json.version}</version>
-			<type>pom</type>
+			<classifier>apidocs</classifier>
+			<type>zip</type>
 		</dependency>
 		<dependency>
 			<groupId>com.holon-platform.jaxrs</groupId>
 			<artifactId>holon-jaxrs-root</artifactId>
 			<version>${holon.jaxrs.version}</version>
-			<type>pom</type>
+			<classifier>apidocs</classifier>
+			<type>zip</type>
 		</dependency>
 		<dependency>
 			<groupId>com.holon-platform.jdbc</groupId>
 			<artifactId>holon-jdbc-root</artifactId>
 			<version>${holon.jdbc.version}</version>
-			<type>pom</type>
+			<classifier>apidocs</classifier>
+			<type>zip</type>
 		</dependency>
 		<dependency>
 			<groupId>com.holon-platform.jdbc</groupId>
 			<artifactId>holon-datastore-jdbc-root</artifactId>
 			<version>${holon.jdbc.datastore.version}</version>
-			<type>pom</type>
+			<classifier>apidocs</classifier>
+			<type>zip</type>
 		</dependency>
 		<dependency>
 			<groupId>com.holon-platform.jpa</groupId>
 			<artifactId>holon-datastore-jpa-root</artifactId>
 			<version>${holon.jpa.datastore.version}</version>
-			<type>pom</type>
+			<classifier>apidocs</classifier>
+			<type>zip</type>
 		</dependency>
 		<dependency>
 			<groupId>com.holon-platform.jpa</groupId>
 			<artifactId>holon-datastore-jpa-querydsl-root</artifactId>
 			<version>${holon.jpa.datastore.querydsl.version}</version>
-			<type>pom</type>
+			<classifier>apidocs</classifier>
+			<type>zip</type>
 		</dependency>
-		<!-- <dependency> <groupId>com.holon-platform.mongo</groupId> <artifactId>holon-datastore-mongo-root</artifactId> 
-			<version>${holon.mongo.datastore.version}</version> <type>pom</type> </dependency> -->
 		<dependency>
 			<groupId>com.holon-platform.vaadin</groupId>
 			<artifactId>holon-vaadin-root</artifactId>
 			<version>${holon.vaadin.version}</version>
-			<type>pom</type>
+			<classifier>apidocs</classifier>
+			<type>zip</type>
 		</dependency>
 
 	</dependencies>
