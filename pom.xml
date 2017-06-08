@@ -76,6 +76,8 @@
 		<holon.jdbc.datastore.version>5.0.0-SNAPSHOT</holon.jdbc.datastore.version>
 		<!-- JPA Datastore -->
 		<holon.jpa.datastore.version>5.0.0-SNAPSHOT</holon.jpa.datastore.version>
+		<!-- JPA Datastore QueryDSL -->
+		<holon.jpa.datastore.querydsl.version>5.0.0-SNAPSHOT</holon.jpa.datastore.querydsl.version>
 		<!-- MongoDB Datastore -->
 		<holon.mongo.datastore.version>5.0.0-SNAPSHOT</holon.mongo.datastore.version>
 		<!-- Vaadin -->

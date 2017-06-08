@@ -91,6 +91,12 @@
 			<version>${holon.jpa.datastore.version}</version>
 			<type>zip</type>
 		</dependency>
+		<dependency>
+			<groupId>com.holon-platform.jpa</groupId>
+			<artifactId>documentation-datastore-jpa-querydsl</artifactId>
+			<version>${holon.jpa.datastore.querydsl.version}</version>
+			<type>zip</type>
+		</dependency>
 		<!-- <dependency> <groupId>com.holon-platform.mongo</groupId> <artifactId>documentation-datastore-mongo</artifactId> 
 			<version>${holon.mongo.datastore.version}</version> <type>zip</type> </dependency> -->
 		<dependency>
@@ -140,6 +146,13 @@
 			<groupId>com.holon-platform.jpa</groupId>
 			<artifactId>holon-datastore-jpa-root</artifactId>
 			<version>${holon.jpa.datastore.version}</version>
+			<type>pom</type>
+			<classifier>javadoc</classifier>
+		</dependency>
+		<dependency>
+			<groupId>com.holon-platform.jpa</groupId>
+			<artifactId>holon-datastore-jpa-querydsl-root</artifactId>
+			<version>${holon.jpa.datastore.querydsl.version}</version>
 			<type>pom</type>
 			<classifier>javadoc</classifier>
 		</dependency>
