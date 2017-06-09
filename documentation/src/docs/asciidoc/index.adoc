@@ -22,26 +22,29 @@ docs
 
 == Modules
 
-* link:reference/holon-core/overview.html[Core]
+* link:reference/holon-core.html[Core]
 +
 Core: resources, properties, datastores, internationalization, ...
 
-* link:reference/holon-json/overview.html[JSON support]
+* link:reference/holon-json.html[JSON support]
 +
 JSON support
 
-* link:reference/holon-jaxrs/overview.html[JAX-RS integration]
+* link:reference/holon-jaxrs.html[JAX-RS integration]
 +
 JAX-RS and REST
 
 * Datastores
-** link:reference/holon-datastore-jdbc/overview.html[JDBC Datastore]
+** link:reference/holon-datastore-jdbc.html[JDBC Datastore]
 +
 JDBC Datastore
-** link:reference/holon-datastore-jpa/overview.html[JPA Datastore]
+** link:reference/holon-datastore-jpa.html[JPA Datastore]
 +
 JPA Datastore
+** link:reference/holon-datastore-jpa-querydsl.html[JPA Datastore]
++
+JPA Datastore QueryDSL integration
 
-* link:reference/holon-vaadin/overview.html[Vaadin UI]
+* link:reference/holon-vaadin.html[Vaadin UI]
 +
 Vaadin UI

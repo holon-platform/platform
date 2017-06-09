@@ -15,10 +15,7 @@
 	<fileSets>
 		<fileSet>
 			<directory>target/generated-docs</directory>
-			<outputDirectory></outputDirectory>
-			<excludes>
-				<exclude>docinfo-footer.html</exclude>
-			</excludes>
+			<outputDirectory/>
 		</fileSet>
 	</fileSets>
 
@@ -28,6 +25,9 @@
 			<includes>
 				<include>*:documentation-*:zip:*</include>
 			</includes>
+			<excludes>
+				<exclude>include/**</exclude>
+			</excludes>
 			<outputDirectory>reference</outputDirectory>
 			<unpack>true</unpack>
 		</dependencySet>

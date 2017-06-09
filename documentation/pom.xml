@@ -30,7 +30,11 @@
 		</resources>
 
 		<plugins>
-
+			<!-- Asciidoc reference documentation to HTML and PDF -->
+			<plugin>
+				<groupId>org.asciidoctor</groupId>
+				<artifactId>asciidoctor-maven-plugin</artifactId>
+			</plugin>
 			<!-- Assembly docs -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
