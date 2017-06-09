@@ -15,21 +15,41 @@
 	<fileSets>
 		<fileSet>
 			<directory>target/generated-docs</directory>
-			<outputDirectory/>
+			<outputDirectory>reference</outputDirectory>
+			<excludes>
+				<exclude>index.pdf</exclude>
+			</excludes>
 		</fileSet>
 	</fileSets>
 
 	<dependencySets>
-		<!-- Modules documentation -->
+		<!-- Modules documentation (html) -->
 		<dependencySet>
 			<includes>
 				<include>*:documentation-*:zip:*</include>
 			</includes>
-			<excludes>
-				<exclude>include/**</exclude>
-			</excludes>
 			<outputDirectory>reference</outputDirectory>
 			<unpack>true</unpack>
+			<unpackOptions>
+				<excludes>
+					<exclude>**/*.pdf</exclude>
+					<exclude>**/include/**</exclude>
+				</excludes>
+			</unpackOptions>
+		</dependencySet>
+
+		<!-- Modules documentation (pdf) -->
+		<dependencySet>
+			<includes>
+				<include>*:documentation-*:zip:*</include>
+			</includes>
+			<outputDirectory>reference/pdf</outputDirectory>
+			<unpack>true</unpack>
+			<unpackOptions>
+				<includes>
+					<include>**/*.pdf</include>
+				</includes>
+			</unpackOptions>
 		</dependencySet>
 
 		<!-- Javadocs -->

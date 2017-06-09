@@ -1,0 +1,47 @@
+= The Holon Platform
+:revnumber: {project-version}
+:linkattrs:
+:sectnums:
+:nofooter:
+:toc: macro
+:toclevels: 3
+
+Preface *here*.
+
+toc::[]
+
+== Introduction
+
+The introduction goes here.
+
+== Modules
+
+=== Holon Core
+
+link:holon-core.html[Core]
+
+link:pdf/holon-core.pdf[PDF]
+
+=== Holon JSON
+
+link:holon-json.html[JSON support]
+
+=== Holon JAX-RS
+
+link:holon-jaxrs.html[JAX-RS integration]
+
+=== Holon Datastores
+
+==== JDBC Datastore
+
+link:holon-datastore-jdbc.html[JDBC Datastore]
+
+==== JPA Datastore
+
+link:holon-datastore-jpa.html[JPA Datastore]
+
+link:holon-datastore-jpa-querydsl.html[QueryDSL integration]
+
+=== Holon Vaadin UI
+
+link:holon-vaadin.html[Vaadin UI]
