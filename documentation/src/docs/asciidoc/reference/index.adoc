@@ -56,7 +56,19 @@ For the platform distribution project, the release informations can be found at 
 
 === Platform distribution versioning
 
-.
+The Holon platform use the link:http://semver.org[Semantic Versioning] system. 
+
+Each platform *module* is versioned following the semantic versioning convention.
+
+The platform distribution artifact, which contains the Maven *BOM (Bill Of Materials)* to provide all the platform modules artifacts (see below), is bound to all the latest modules version at the platform release time. For this reason, the following convention is used for the platform distribution versioning:
+
+* When a new platform *module* version is released, a new platform distribution version is released too, and the platform overall version is incremented according to the *module* version: if it is a _patch version_ release, the platform _patch version_ is incremented; if it is a _minor version_ release, the platform _minor version_ is incremented instead.
+
+* When more than one platform *module* version changes, the most significative version change is taken into account: if the _minor version_ of a module is changed, the platform _minor version_ is incremented; if only the _patch version_ of the modules is changed, the platform _patch version_ is incremented instead.
+
+* The platform _major version_ number is incremented for breaking and not backward-compatible API changes. In this case, all the platform *modules* will be versioned with the new  _major version_ number.
+
+* The platform _patch version_ number can be incremented even if there are not any module version changes, for example to release a documentation or BOM project fix.
 
 === Obtain the platform artifacts
 
@@ -127,7 +139,6 @@ To obtain a pre-release artifact you need to add the following repository specif
 </repositories>
 ----
 
-
 [[modules]]
 == Holon Platform Modules
 
@@ -165,4 +176,8 @@ link:holon-vaadin.html[Vaadin UI]
 == How-to guides
 
 TODO.
+
+== Appendix A: Holon Platform BOM dependencies
+
+TODO
 
