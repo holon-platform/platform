@@ -139,38 +139,114 @@ To obtain a pre-release artifact you need to add the following repository specif
 </repositories>
 ----
 
+=== Spring and Spring Boot integration
+
+The Holon Platform provides a wide integration with the link:https://spring.io[Spring Framework] and link:http://projects.spring.io/spring-boot[Spring Boot].
+
+A set of `Enable*` type annotation are available for a quick and simple configuration of the most common and useful _Spring-enabled_ platform components.
+
+Besides, a complete and powerful set of _Spring Boot_ *auto-configuration* classes and *starters* are provided for each platform module.
+
+See each module specific documentation for available Spring and Spring Boot configuration helpers and resources.
+
 [[modules]]
 == Holon Platform Modules
 
 === Holon Core
 
-link:holon-core.html[Core]
+The Holon Platform *Core* module represents the platform foundation, providing the definition of the overall architecture, base structures and APIs.
 
-link:pdf/holon-core.pdf[PDF]
+|===
+|Documentation |Sources |Issues
+
+|link:holon-core.html[html] \| link:pdf/holon-core.pdf[pdf]
+|link:https://github.com/holon-platform/holon-core[github.com/holon-platform/holon-core]
+|link:https://github.com/holon-platform/holon-core/issues[github.com/holon-platform/holon-core/issues]
+|===
 
 === Holon JSON
 
-link:holon-json.html[JSON support]
+The Holon Platform *JSON* module provides link:http://www.json.org[JSON] support and integration with the platform foundation elements, using common libraries such as link:https://github.com/FasterXML/jackson[Jackson] and link:https://github.com/google/gson[Gson].
+
+|===
+|Documentation |Sources |Issues
+
+|link:holon-json.html[html] \| link:pdf/holon-json.pdf[pdf]
+|link:https://github.com/holon-platform/holon-json[github.com/holon-platform/holon-json]
+|link:https://github.com/holon-platform/holon-json/issues[github.com/holon-platform/holon-json/issues]
+|===
 
 === Holon JAX-RS
 
-link:holon-jaxrs.html[JAX-RS integration]
+The Holon Platform *JAX-RS* module provides support, services and configuration helpers to build and consume *RESTful Web Services* using the _Java API for RESTful Web Services (JAX-RS)_ standard. The module ensures the  integration between JAX-RS compliant components with the platform foundation elements and architectural structures (such as Property, PropertyBox and Authentication) and provides support and configuration facilities for popular libraries such as link:https://github.com/jersey/jersey[Jersey], link:http://resteasy.jboss.org[Resteasy] and link:http://swagger.io[Swagger] for API documentation following the *OpenAPI Specification (OAS)*.
 
-=== Holon Datastores
+|===
+|Documentation |Sources |Issues
 
-==== JDBC Datastore
+|link:holon-jaxrs.html[html] \| link:pdf/holon-jaxrs.pdf[pdf]
+|link:https://github.com/holon-platform/holon-jaxrs[github.com/holon-platform/holon-jaxrs]
+|link:https://github.com/holon-platform/holon-jaxrs/issues[github.com/holon-platform/holon-jaxrs/issues]
+|===
 
-link:holon-datastore-jdbc.html[JDBC Datastore]
+=== Holon JDBC
 
-==== JPA Datastore
+The Holon Platform *JDBC* module represents the platform support for the _Java DataBase Connectivity_ API, dealing with `DataSource` configuration and _multi-tenancy_ support.
 
-link:holon-datastore-jpa.html[JPA Datastore]
+|===
+|Documentation |Sources |Issues
 
-link:holon-datastore-jpa-querydsl.html[QueryDSL integration]
+|link:holon-jdbc.html[html] \| link:pdf/holon-jdbc.pdf[pdf]
+|link:https://github.com/holon-platform/holon-jdbc[github.com/holon-platform/holon-jdbc]
+|link:https://github.com/holon-platform/holon-jdbc/issues[github.com/holon-platform/holon-jdbc/issues]
+|===
+
+=== Holon JDBC Datastore
+
+The Holon *JDBC Datastore* module is the _Java DataBase Connectivity_ reference implementation of the link:holon-core.html#Datastore[Datastore] abstraction.
+
+|===
+|Documentation |Sources |Issues
+
+|link:holon-datastore-jdbc.html[html] \| link:pdf/holon-datastore-jdbc.pdf[pdf]
+|link:https://github.com/holon-platform/holon-datastore-jdbc[github.com/holon-platform/holon-datastore-jdbc]
+|link:https://github.com/holon-platform/holon-datastore-jdbc/issues[github.com/holon-platform/holon-datastore-jdbc/issues]
+|===
+
+=== Holon JPA Datastore
+
+The Holon *JPA Datastore* module is the _Java Persistence API_ reference implementation of the link:holon-core.html#Datastore[Datastore] abstraction.
+
+|===
+|Documentation |Sources |Issues
+
+|link:holon-datastore-jpa.html[html] \| link:pdf/holon-datastore-jpa.pdf[pdf]
+|link:https://github.com/holon-platform/holon-datastore-jpa[github.com/holon-platform/holon-datastore-jpa]
+|link:https://github.com/holon-platform/holon-datastore-jpa/issues[github.com/holon-platform/holon-datastore-jpa/issues]
+|===
+
+=== Holon JPA Datastore QueryDSL integration
+
+This module provides a set of link:http://www.querydsl.com[QueryDSL] integration features for the *JPA Datastore* module.
+
+|===
+|Documentation |Sources |Issues
+
+|link:holon-datastore-jpa-querydsl.html[html] \| link:pdf/holon-datastore-jpa-querydsl.pdf[pdf]
+|link:https://github.com/holon-platform/holon-datastore-jpa-querydsl[github.com/holon-platform/holon-datastore-jpa-querydsl]
+|link:https://github.com/holon-platform/holon-datastore-jpa-querydsl/issues[github.com/holon-platform/holon-datastore-jpa-querydsl/issues]
+|===
 
 === Holon Vaadin UI
 
-link:holon-vaadin.html[Vaadin UI]
+The Holon Platform *Vaadin* module uses link:https://vaadin.com[Vaadin] to build *User Interfaces* for web applications using _Java_. This module provides integration with platform foundation architecture, a set of components and builders, configuration helpers, a complete link:holon-core.html#Datastore[Datastore] integration with Vaadin data binding and a full support for _virtual_ pages and navigation.
+
+|===
+|Documentation |Sources |Issues
+
+|link:holon-vaadin.html[html] \| link:pdf/holon-vaadin.pdf[pdf]
+|link:https://github.com/holon-platform/holon-vaadin[github.com/holon-platform/holon-vaadin]
+|link:https://github.com/holon-platform/holon-vaadin/issues[github.com/holon-platform/holon-vaadin/issues]
+|===
 
 [[howto]]
 == How-to guides
