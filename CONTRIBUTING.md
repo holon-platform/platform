@@ -26,7 +26,17 @@ excellent [help documentation](https://help.github.com/categories/collaborating-
 
 Is there already an issue that addresses your concern? Do a bit of searching in each repository _issues_ section to see if you can find something similar. If you do not find something similar, please create a new issue before submitting a pull request unless the change is truly trivial (for example, typo fixes).
 
+## Solve only one problem per patch
+
+Please solve only one problem per path and separate each logical change into a separate patch.
+For example, if your changes include both bug fixes and performance enhancements, separate those changes into two or more patches.
+
+If one patch depends on another patch in order for a change to be complete, note "this patch depends on patch X" in your patch description.
+
+When dividing your change into a series of patches, take special care to ensure that the project builds and runs properly after each patch in the series.
+
 ## Sign the Contributor License Agreement
+
 Before we accept a patch or pull request we will need you to [sign the Contributor License Agreement](https://holon-platform.com/cla/sign).
 Signing the contributor's agreement does not grant anyone commit rights to the repository, but it does mean that we can accept your 
 contributions, and you will get an author credit if we do.
@@ -34,13 +44,24 @@ contributions, and you will get an author credit if we do.
 # Branches
 
 ## Branch from `master`
+
 The master branch represents work toward the next release of each platform module. Please submit all pull requests there, even bug fixes and minor improvements.
 
 When you clone a platform repository (using `git clone https://github.com/holon-platform/{repo-name}.git` or using your favorite Git tool), remember to do `git checkout master` and `git pull` to make sure you are creating your commits on top of a recent enough version.
 
 ## Use short branch names
+
 If you are a contributor with the right to create new branches, the branches used when submitting pull requests should preferably be named
 according to the issue number, e.g. 'issue-1234'. Otherwise, use succinct, lower-case, dash (-) delimited names, such as 'fix-warnings', 'fix-typo', etc.
+
+# Code conventions
+
+## Formatting conventions
+
+1. Use tabs for indentation (not spaces)
+1. Eliminate all trailing whitespace 
+1. Preserve existing formatting
+1. Use UTF-8 encoding for Java sources
 
 # Set up your development environment
 
