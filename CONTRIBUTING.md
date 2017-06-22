@@ -63,6 +63,76 @@ according to the issue number, e.g. 'issue-1234'. Otherwise, use succinct, lower
 1. Preserve existing formatting
 1. Use UTF-8 encoding for Java sources
 
+## Braces
+
+Braces mostly follow the Kernighan and Ritchie style (a.k.a., "Egyptian brackets") for nonempty blocks and block-like constructs:
+
+* No line break before the opening brace but prefixed by a single space
+* Line break after the opening brace
+* Line break before the closing brace
+* Line break after the closing brace if that brace terminates a statement or the body of a method, constructor, or named class
+* Line break before else, catch and finally statements
+
+## Constant names
+
+Use `CONSTANT_CASE` for constant names: all uppercase letters, with words separated by underscores.
+
+Every constant is a `static final` field, but not all `static final` fields are constants. Constant case should therefore be chosen only if the field is really a constant.
+
+## License
+
+### Add Apache license header to all new classes
+
+```java
+/*
+ * Copyright 2002-2017 the original author or authors.
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+package ...;
+```
+
+### Update Apache license header in modified files as necessary
+
+Always check the date range in the license header. For example, if you've modified a file in 2017 whose header still reads:
+
+```java
+/*
+ * Copyright 2002-2011 the original author or authors.
+```
+
+Then be sure to update it to 2017 accordingly:
+
+```java
+/*
+ * Copyright 2002-2017 the original author or authors.
+```
+
+## Use `@since` tag for newly-added public API types and methods
+
+For example:
+
+```java
+/**
+ * ...
+ *
+ * @author First Last
+ * @since 5.0
+ * @see ...
+ */
+```
+
 # Set up your development environment
 
 To build the source you will need to install [Apache Maven](http://maven.apache.org) v3.3.0 or above and JDK 1.8.
