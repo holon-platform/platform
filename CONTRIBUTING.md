@@ -136,3 +136,63 @@ For example:
 # Set up your development environment
 
 To build the source you will need to install [Apache Maven](http://maven.apache.org) v3.3.0 or above and JDK 1.8.
+
+# Prepare Your Commit
+
+## Include a test
+
+For non-trivial patches, we would like the patch to include automated tests. Unit tests are preferred. Test cases should succeed with the patch and fail without the patch. 
+
+If the patch is a performance improvement, please include some benchmark data that tells us how much the performance is improved. 
+
+## Use real name in git commits
+
+Please configure git to use your real first and last name for any commits you intend to submit as pull requests, as
+submitted against the Contributor License Agreement (CLA):
+
+    Author: First Last <user@mail.com>
+
+You can configure this via the account admin area in GitHub (useful for fork-and-edit cases) or _globally_ on your machine with
+
+    git config --global user.name "First Last"
+    git config --global user.email user@mail.com
+
+
+## Format commit messages
+
+Please format your commit messages in the following way:
+
+    Short (50 chars or less) summary of changes (#1234)
+
+    More detailed explanatory text, if necessary.
+
+    Further paragraphs come after blank lines.
+
+1. Use imperative statements in the subject line; reference a ticket number if applicable.
+1. Restrict the subject line to 50 characters or less if possible.
+1. Describe the problem solved and what was done to solve the problem.
+
+# Submit your pull request
+
+## Run all tests prior to submission
+
+Make sure that all tests pass prior to submitting your pull request.
+
+## Respond to review comments
+
+Your pull request will almost certainly get comments from reviewers on ways in which the patch can be improved. Please respond to those comments and be sure to tell the reviewers what changes you are making; ignoring reviewers is a good way to get ignored in return.
+
+## Expect rework and don't get discouraged
+
+After you have submitted your change, be patient...! Ideally we try to get a response within one business day. You should receive comments within a week or so; if that does not happen, make sure that you have sent your patches to the right place. 
+
+The Holon Platform team mission is to keep code quality and stability as high as possible, and to keep complexity at a minimum. Your changes, if accepted, may be heavily modified prior to merging. You will retain "Author:" attribution for your Git commits and it is granted that the bulk of your changes remain intact. You may be asked to rework the submission.
+
+# Questions and contacts
+
+Feel free to write us at dev@holon-platform.com for any question, proposal or information request.
+
+# More information
+
+Read more about best practices in [this github guide](https://opensource.guide/how-to-contribute/).
+
