@@ -184,7 +184,7 @@ Your pull request will almost certainly get comments from reviewers on ways in w
 
 ## Expect rework and don't get discouraged
 
-After you have submitted your change, be patient...! Ideally we try to get a response within one business day. You should receive comments within a week or so; if that does not happen, make sure that you have sent your patches to the right place. 
+After you have submitted your change, be patient...! Ideally we try to get a response within one business day. You should receive comments within a week; if that does not happen, make sure that you have sent your patches to the right place. 
 
 The Holon Platform team mission is to keep code quality and stability as high as possible, and to keep complexity at a minimum. Your changes, if accepted, may be heavily modified prior to merging. You will retain "Author:" attribution for your Git commits and it is granted that the bulk of your changes remain intact. You may be asked to rework the submission.
 
