@@ -5,16 +5,131 @@
 :nofooter:
 :toc: macro
 :toclevels: 3
+:docsurl: http://holon-platform.com/docs
 
-Preface *here*.
+Copyright © 2016-2017
+
+_Copies of this document may be made for your own use and for distribution to others, provided that you do not charge any fee for such copies and further provided that each copy contains this Copyright Notice, whether distributed in print or electronically._
 
 toc::[]
 
-== Introduction
+== Holon Platform Documentation and learning
 
-The introduction goes here.
+=== About the documentation
 
-== Modules
+The Holon Platform reference guide is available as link:{docsurl}/{revnumber}/reference[HTML] and  link:{docsurl}/{revnumber}/reference/pdf/holon-platform.pdf[PDF] documents. The latest documentation version is available at link:{docsurl}/current/reference.
+
+Each platform *module* is shipped with its own documentation, which can be accessed and downloaded independently. See the <<modules>> section for the available modules list and their documentation resources.
+
+TIP: The Holon Platform is open source, including the documentation. If you find problems with the documentation resources or if you just want to improve them, please link:https://github.com/holon-platform/platform[get involved].
+
+=== Getting help and report bugs
+
+Besides this reference guide, for more advanced topics or if you have troubles with the Holon Platform, we'd like to help and support you:
+
+* Check the <<howto>> section for solutions to the most common questions.
+* Ask a question on link:https://stackoverflow.com[stackoverflow.com]. We monitor questions tagged with `holon-platform`.
+* Report bugs at link:https://github.com/holon-platform/platform/issues[github.com/holon-platform/platform/issues]. See the <<modules>> section to report bugs for a specific platform module.
+* We offer *professional support* services from our team: link:https://holon-platform.com/support[learn more].
+
+=== Examples and tutorials
+
+A list of *tutorials* about the Holon Platform is available link:https://holon-platform.com/tutorials[here]. 
+
+See link:https://github.com/holon-platform/holon-examples[github.com/holon-platform/holon-examples] for a rich set of *example* projects.
+
+== Getting started
+
+=== Introducing the Holon Platform
+
+*TODO* The introduction goes here.
+
+=== System Requirements
+
+The Holon Platform {revnumber} requires https://www.java.com[Java 8] or above. Explicit build support is provided for link:https://maven.apache.org[Maven] (3+).
+
+=== Release notes
+
+The releases of each platform module and of the platform itself are tracked in the GitHub repositories. Each *release tag* provides a link to the list of the closed issues, including bug fixes and enhancements. 
+
+For the platform distribution project, the release informations can be found at link:https://github.com/holon-platform/platform/releases[github.com/holon-platform/platform/releases].
+
+=== Platform distribution versioning
+
+.
+
+=== Obtain the platform artifacts
+
+The Holon Platform uses link:https://maven.apache.org[Maven] to build and distribute the platform artifacts, using the `com.holon-platform` base *group id*.
+
+All the production *releases* (including binaries, sources and javadocs) are hosted in the likn:https://mvnrepository.com/repos/central[Maven Central] repository.
+
+The easiest way to obtain the Holon Platform artifacts is by using the platform *BOM (Bill Of Materials)*, which provides a complete set of dependencies of the latest release of each module. The Maven coordinates of the platform *BOM* are:
+
+_Platform BOM Maven coordinates_:
+[source, xml, subs="attributes+"]
+----
+<groupId>com.holon-platform</groupId>
+<artifactId>bom</artifactId>
+<version>{revnumber}</version>
+----
+
+The *BOM* can be imported an used in a Maven project in the following way:
+
+[source, xml, subs="verbatim,quotes,attributes+"]
+----
+<project>
+
+<dependencyManagement>
+	<dependencies>
+		<dependency>
+			<groupId>com.holon-platform</groupId>
+			<artifactId>bom</artifactId>
+			<version>{revnumber}</version>
+			*<type>pom</type>*
+			*<scope>import</scope>*
+		</dependency>
+	</dependencies>
+</dependencyManagement>
+----
+
+With the platform *BOM* imported in your dependency management section, you can declare and obtain the artifacts you need without specifying the artifact version, which will be the latest version provided by the platform bom. For example:
+
+[source, xml]
+----
+<dependencies>
+	<dependency>
+		<groupId>com.holon-platform.core</groupId>
+		<artifactId>holon-core</artifactId>
+	</dependency>
+</dependencies>
+
+</project>
+----
+
+See the <<modules>> section for detailed informations about each module's artifacts.
+
+==== Pre-releases
+
+The platform *pre-releases* are hosted in the link:https://bintray.com/holon-platform/pre-releases[Holon Platform pre-releases Bintray repository]. 
+
+To obtain a pre-release artifact you need to add the following repository specification either in link:https://maven.apache.org/settings.html#Repositories[settings.xml] or in your link:https://maven.apache.org/guides/mini/guide-multiple-repositories.html[pom.xml]:
+
+[source, xml]
+----
+<repositories>
+    <!-- ... -->
+   <repository>
+    <id>holon-platform-pre-releases</id>
+    <name>Holon Platform pre-releases</name>
+    <url>http://dl.bintray.com/holon-platform/pre-releases</url>
+    </repository>
+</repositories>
+----
+
+
+[[modules]]
+== Holon Platform Modules
 
 === Holon Core
 
@@ -45,3 +160,9 @@ link:holon-datastore-jpa-querydsl.html[QueryDSL integration]
 === Holon Vaadin UI
 
 link:holon-vaadin.html[Vaadin UI]
+
+[[howto]]
+== How-to guides
+
+TODO.
+
