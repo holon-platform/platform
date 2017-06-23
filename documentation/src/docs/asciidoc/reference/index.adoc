@@ -74,7 +74,7 @@ The platform distribution artifact, which contains the Maven *BOM (Bill Of Mater
 
 The Holon Platform uses link:https://maven.apache.org[Maven] to build and distribute the platform artifacts, using the `com.holon-platform` base *group id*.
 
-All the production *releases* (including binaries, sources and javadocs) are hosted in the likn:https://mvnrepository.com/repos/central[Maven Central] repository.
+All the production *releases* (including binaries, sources and javadocs) are hosted in the link:https://mvnrepository.com/repos/central[Maven Central] repository.
 
 The easiest way to obtain the Holon Platform artifacts is by using the platform *BOM (Bill Of Materials)*, which provides a complete set of dependencies of the latest release of each module. The Maven coordinates of the platform *BOM* are:
 
