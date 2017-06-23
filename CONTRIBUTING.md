@@ -66,6 +66,7 @@ First of all, check the [Holon Platform code structure and conventions](CODING.m
 1. Eliminate all trailing whitespace 
 1. Preserve existing formatting
 1. Use UTF-8 encoding for Java sources
+1. Use Unix (LF), not DOS (CRLF) line endings
 
 ## Braces
 
