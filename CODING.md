@@ -46,4 +46,4 @@ The _packages_ of each artifact must be organized as follows:
 For example, using the `com.holonplatform.core` _group id_, the classes of an API topic named `mytopic` are organized in packages named this way:
 
 * `com.holonplatform.core`**`.mytopic`**: API interfaces
-* `com.holonplatform.core`**`internal.mytopic`**: Implementation and support classes
+* `com.holonplatform.core`**`.internal.mytopic`**: Implementation and support classes
