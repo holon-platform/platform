@@ -58,7 +58,7 @@ according to the issue number, e.g. 'issue-1234'. Otherwise, use succinct, lower
 
 ## Structure and general rules
 
-First of all, check the [Holon Platform code structure and conventions](CODING.md) document, which describes the which describes the basic philosophy with which platform code is developed and organized.
+First of all, check the [Holon Platform code structure and conventions](CODING.md) document, which describes the basic philosophy with which platform code is developed and organized.
 
 ## Formatting conventions
 
