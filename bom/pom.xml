@@ -85,14 +85,9 @@
 				<scope>import</scope>
 			</dependency>
 
-			<!-- Holon MongoDB Datastore -->
-			<!-- <dependency> <groupId>com.holon-platform.mongo</groupId> <artifactId>holon-datastore-mongo-bom</artifactId> 
-				<version>${holon.mongo.datastore.version}</version> <type>pom</type> <scope>import</scope> 
-				</dependency> -->
-
-			<!-- Holon Vaadin -->
+			<!-- Holon Vaadin 7 -->
 			<dependency>
-				<groupId>com.holon-platform.vaadin</groupId>
+				<groupId>com.holon-platform.vaadin7</groupId>
 				<artifactId>holon-vaadin-bom</artifactId>
 				<version>${holon.vaadin.version}</version>
 				<type>pom</type>
