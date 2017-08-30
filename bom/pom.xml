@@ -84,6 +84,15 @@
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
+			
+			<!-- Holon Vaadin -->
+			<dependency>
+				<groupId>com.holon-platform.vaadin</groupId>
+				<artifactId>holon-vaadin-bom</artifactId>
+				<version>${holon.vaadin.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
 
 			<!-- Holon Vaadin 7 -->
 			<dependency>
