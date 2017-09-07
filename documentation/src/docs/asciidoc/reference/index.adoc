@@ -262,12 +262,7 @@ A *Vaadin* UI integration module using the version *7* of the Vaadin framework i
 |link:https://github.com/holon-platform/holon-vaadin/issues[github.com/holon-platform/holon-vaadin7/issues]
 |===
 
-[[howto]]
-== How-to guides
+== Holon resources
 
-TODO.
-
-== Appendix A: Holon Platform BOM dependencies
-
-TODO
+See link:https://holonplatform.com[The Holon Platform website] for additional resources, news, events and commercial support.
 
