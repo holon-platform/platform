@@ -39,7 +39,23 @@ See link:https://github.com/holon-platform/holon-examples[github.com/holon-platf
 
 === Introducing the Holon Platform
 
-*TODO* The introduction goes here.
+The Holon Platform is a Java development ecosystem to create and maintain high quality, enteprise-grade web applications and services.
+
+Some main platform key points are:
+
+* *Provides "real" Java API*: the Holon platform is designed as a real Java API, with the aim to leverage all new Java 8 features and to create strong abstraction layers to ensure implementation details encapsulation, high productivity and long-term maintanability with a minimal application upgrade effort to follow the platform evolution.
+
+* It's *modular and full-stack* at the same time: the Holon platform provides a full-stack application development environment, but you can select only the components or modules you need and replace or extend them leveraging on the high configurability and extensibility features ensured by the platform architecture.
+
+* The *`Property` data model*: the Holon platform property data model architecture allows to use an application data model which is independent from the persistence technology and make it a shared asset for all application layers, from the backend to the UI, avoiding code duplication and using a consistent API to manage it.
+
+* It's *extensible by design*: the Holon platform components are designed to be highly extensible, configurable and integrable with other frameworks or libraries. This way it is the platform which must fit your needs, and not vice-versa.
+
+The platform is organized in *modules*: each module corresponds to a GitHub repository and it is composed by a number of _artifacts_.
+
+All the modules depends from the _core_ module, and any other module (and its _artifacts_) can be used independently, to suit each project/application needs with a lightweight dependency set.
+
+See the <<modules>> section of the documentation for a list of all available modules.
 
 === System Requirements
 
