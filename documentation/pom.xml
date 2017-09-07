@@ -111,6 +111,13 @@
 			<type>zip</type>
 		</dependency>
 		<dependency>
+			<groupId>com.holon-platform.vaadin</groupId>
+			<artifactId>documentation-vaadin</artifactId>
+			<version>${holon.vaadin.version}</version>
+			<classifier>documentation</classifier>
+			<type>zip</type>
+		</dependency>
+		<dependency>
 			<groupId>com.holon-platform.vaadin7</groupId>
 			<artifactId>documentation-vaadin</artifactId>
 			<version>${holon.vaadin.version}</version>
@@ -165,6 +172,13 @@
 			<groupId>com.holon-platform.jpa</groupId>
 			<artifactId>holon-datastore-jpa-querydsl-root</artifactId>
 			<version>${holon.jpa.datastore.querydsl.version}</version>
+			<classifier>apidocs</classifier>
+			<type>zip</type>
+		</dependency>
+		<dependency>
+			<groupId>com.holon-platform.vaadin</groupId>
+			<artifactId>holon-vaadin-root</artifactId>
+			<version>${holon.vaadin.version}</version>
 			<classifier>apidocs</classifier>
 			<type>zip</type>
 		</dependency>
