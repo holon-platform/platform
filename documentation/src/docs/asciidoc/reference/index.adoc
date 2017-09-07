@@ -27,14 +27,11 @@ TIP: The Holon Platform is open source, including the documentation. If you find
 
 Besides this reference guide, for more advanced topics or if you have troubles with the Holon Platform, we'd like to help and support you:
 
-* Check the <<howto>> section for solutions to the most common questions.
 * Ask a question on link:https://stackoverflow.com[stackoverflow.com]. We monitor questions tagged with `holon-platform`.
 * Report bugs at link:https://github.com/holon-platform/platform/issues[github.com/holon-platform/platform/issues]. See the <<modules>> section to report bugs for a specific platform module.
 * We offer *professional support* services from our team: link:https://holon-platform.com/support[learn more].
 
-=== Examples and tutorials
-
-A list of *tutorials* about the Holon Platform is available link:https://holon-platform.com/tutorials[here]. 
+=== Examples
 
 See link:https://github.com/holon-platform/holon-examples[github.com/holon-platform/holon-examples] for a rich set of *example* projects.
 
