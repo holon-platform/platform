@@ -240,12 +240,26 @@ This module provides a set of link:http://www.querydsl.com[QueryDSL] integration
 
 The Holon Platform *Vaadin* module uses link:https://vaadin.com[Vaadin] to build *User Interfaces* for web applications using _Java_. This module provides integration with platform foundation architecture, a set of components and builders, configuration helpers, a complete link:holon-core.html#Datastore[Datastore] integration with Vaadin data binding and a full support for _virtual_ pages and navigation.
 
+This module requires Vaadin version *8.1.x* or higher.
+
 |===
 |Documentation |Sources |Issues
 
 |link:holon-vaadin.html[html] \| link:pdf/holon-vaadin.pdf[pdf]
 |link:https://github.com/holon-platform/holon-vaadin[github.com/holon-platform/holon-vaadin]
 |link:https://github.com/holon-platform/holon-vaadin/issues[github.com/holon-platform/holon-vaadin/issues]
+|===
+
+==== Holon Vaadin 7 compatibility module
+
+A *Vaadin* UI integration module using the version *7* of the Vaadin framework is also available, providing an API almost completely compatible with the official Vaadin (version 8) module.
+
+|===
+|Documentation |Sources |Issues
+
+|link:holon-vaadin7.html[html] \| link:pdf/holon-vaadin7.pdf[pdf]
+|link:https://github.com/holon-platform/holon-vaadin[github.com/holon-platform/holon-vaadin7]
+|link:https://github.com/holon-platform/holon-vaadin/issues[github.com/holon-platform/holon-vaadin7/issues]
 |===
 
 [[howto]]
