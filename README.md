@@ -32,7 +32,7 @@ See [releases](https://github.com/holon-platform/platform/releases) for the avai
 
 ### Platform distribution versioning
 
-The Holon platform use the [Semantic Versioning](http://semver.org system). Each platform _module_ is versioned following the semantic versioning convention.
+The Holon platform use the [Semantic Versioning](http://semver.org) system and each platform _module_ is versioned following the semantic versioning convention.
 
 The platform distribution artifact, which contains the Maven _BOM (Bill Of Materials)_ to provide all the platform modules artifacts, is bound to all the __latest modules version__ at the platform release time. For this reason, the following convention is used for the platform distribution versioning:
 
