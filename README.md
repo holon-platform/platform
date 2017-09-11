@@ -104,4 +104,11 @@ All the [Holon Platform](https://holon-platform.com) modules are _Open Source_ s
 
 ## Modules
 
-TODO
+* [Holon Core module](https://github.com/holon-platform/holon-core)
+* [Holon JSON module](https://github.com/holon-platform/holon-json)
+* [Holon JAX-RS module](https://github.com/holon-platform/holon-jaxrs)
+* [Holon JDBC module](https://github.com/holon-platform/holon-jdbc)
+* [Holon JDBC Datastore module](https://github.com/holon-platform/holon-datastore-jdbc)
+* [Holon JPA Datastore module](https://github.com/holon-platform/holon-datastore-jpa)
+* [Holon JPA QueryDSL module](https://github.com/holon-platform/holon-datastore-jpa-querydsl)
+* [Holon Vaadin UI module](https://github.com/holon-platform/holon-vaadin)
