@@ -1,6 +1,6 @@
 # The Holon Platform
 
-The Holon Platform is a Java development ecosystem to create and maintain high quality, enteprise-grade web applications and services.
+The [Holon Platform](https://holon-platform.com) is a __Java__ development ecosystem to create and maintain high quality, enteprise-grade web applications and services.
 
 Some of the main platform key points are:
 
@@ -12,9 +12,7 @@ Some of the main platform key points are:
 
 * It's __extensible by design__: the Holon platform components are designed to be highly extensible, configurable and integrable with other frameworks or libraries. This way it is the platform which must fit your needs, and not vice-versa.
 
-The platform is organized in __modules__: each module corresponds to a GitHub repository and it is composed by a number of _artifacts_.
-
-All the modules depends from the _core_ module, and any other module (and its _artifacts_) can be used independently, to suit each project/application needs with a lightweight dependency set.
+The platform is organized in __modules__: each module corresponds to a GitHub repository and it is composed by a number of _artifacts_. All the modules depends from the _core_ module, and any other module (and its _artifacts_) can be used independently, to suit each project/application needs with a lightweight dependency set.
 
 See the [Modules](#modules) section for a list of the available platform modules.
 
@@ -34,11 +32,9 @@ See [releases](https://github.com/holon-platform/platform/releases) for the avai
 
 ### Platform distribution versioning
 
-The Holon platform use the link:http://semver.org[Semantic Versioning] system. 
+The Holon platform use the [Semantic Versioning](http://semver.org system). Each platform _module_ is versioned following the semantic versioning convention.
 
-Each platform _module_ is versioned following the semantic versioning convention.
-
-The platform distribution artifact, which contains the Maven _BOM (Bill Of Materials)_ to provide all the platform modules artifacts, is bound to all the latest modules version at the platform release time. For this reason, the following convention is used for the platform distribution versioning:
+The platform distribution artifact, which contains the Maven _BOM (Bill Of Materials)_ to provide all the platform modules artifacts, is bound to all the __latest modules version__ at the platform release time. For this reason, the following convention is used for the platform distribution versioning:
 
 * When a new platform _module_ version is released, a new platform distribution version is released too, and the platform overall version is incremented according to the _module_ version: if it is a _patch version_ release, the platform _patch version_ is incremented; if it is a _minor version_ release, the platform _minor version_ is incremented instead.
 
@@ -60,7 +56,7 @@ _Platform Maven BOM:_
     <dependency>
         <groupId>com.holon-platform</groupId>
         <artifactId>bom</artifactId>
-        <version>${platform-version}</version>
+        <version>5.0.0</version>
         <type>pom</type>
         <scope>import</scope>
     </dependency>
@@ -72,10 +68,10 @@ With the platform _BOM_ imported in your dependency management section, you can 
 _Declaring the holon-core dependency:_
 ```xml
 <dependencies>
-	<dependency>
-		<groupId>com.holon-platform.core</groupId>
-		<artifactId>holon-core</artifactId>
-	</dependency>
+  <dependency>
+    <groupId>com.holon-platform.core</groupId>
+    <artifactId>holon-core</artifactId>
+  </dependency>
 </dependencies>
 ```
 
