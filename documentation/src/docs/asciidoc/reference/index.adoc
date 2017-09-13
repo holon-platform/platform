@@ -1,4 +1,4 @@
-= The Holon Platform
+= image:holon-logo.png[Holon] The Holon Platform
 :revnumber: {project-version}
 :linkattrs:
 :sectnums:
@@ -103,8 +103,6 @@ The *BOM* can be imported an used in a Maven project in the following way:
 
 [source, xml, subs="verbatim,quotes,attributes+"]
 ----
-<project>
-
 <dependencyManagement>
 	<dependencies>
 		<dependency>
@@ -128,8 +126,6 @@ With the platform *BOM* imported in your dependency management section, you can 
 		<artifactId>holon-core</artifactId>
 	</dependency>
 </dependencies>
-
-</project>
 ----
 
 See the <<modules>> section for detailed informations about each module's artifacts.
