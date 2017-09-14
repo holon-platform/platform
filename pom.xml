@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>com.holon-platform</groupId>
 		<artifactId>parent</artifactId>
-		<version>1.0.6-SNAPSHOT</version>
+		<version>1.0.6</version>
 	</parent>
 
 	<artifactId>platform-root</artifactId>
@@ -19,7 +19,7 @@
 	<url>https://holon-platform.com</url>
 
 	<organization>
-		<name>Holon TDCN</name>
+		<name>The Holon Platform</name>
 		<url>https://holon-platform.com</url>
 	</organization>
 
@@ -35,7 +35,7 @@
 		<developer>
 			<name>Holon development team</name>
 			<email>dev@holon-platform.com</email>
-			<organization>Holon TDCN</organization>
+			<organization>The Holon Platform</organization>
 			<organizationUrl>https://holon-platform.com</organizationUrl>
 		</developer>
 	</developers>
