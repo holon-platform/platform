@@ -79,7 +79,7 @@ See the [Modules](#modules) section for a list of the available platform modules
 
 ## Getting help
 
-* Check the [platform documentation](https://holon-platform.com/docs/current/reference).
+* Check the [platform documentation](https://docs.holon-platform.com/current/reference).
 
 * Explore the [Holon platform website](https://holon-platform.com) for tutorials, learning resources, news and articles.
 
