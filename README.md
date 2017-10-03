@@ -100,7 +100,7 @@ Join the __contribute__ Gitter room for any question and to contact us.
 
 ## License
 
-All the [Holon Platform](https://holon-platform.com) modules are _Open Source_ software released under the [Apache 2.0 license](LICENSE.md).
+All the [Holon Platform](https://holon-platform.com) modules are _Open Source_ software released under the [Apache 2.0 license](LICENSE).
 
 ## Modules
 
