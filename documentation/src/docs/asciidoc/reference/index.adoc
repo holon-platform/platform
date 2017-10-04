@@ -17,7 +17,7 @@ toc::[]
 
 === About the documentation
 
-The Holon Platform reference guide is available as link:{docsurl}/{revnumber}/reference[HTML] and  link:{docsurl}/{revnumber}/reference/pdf/holon-platform.pdf[PDF] documents. The latest documentation version is available at link:{docsurl}/current/reference.
+The Holon Platform reference guide is available as **HTML** and  **PDF** documents. The latest documentation version is available at link:https://docs.holon-platform.com/current/reference[https://docs.holon-platform.com/current/reference].
 
 Each platform *module* is shipped with its own documentation, which can be accessed and downloaded independently. See the <<modules>> section for the available modules list and their documentation resources.
 
@@ -29,7 +29,7 @@ Besides this reference guide, for more advanced topics or if you have troubles w
 
 * Ask a question on link:https://stackoverflow.com[stackoverflow.com]. We monitor questions tagged with `holon-platform`.
 * Report bugs at link:https://github.com/holon-platform/platform/issues[github.com/holon-platform/platform/issues]. See the <<modules>> section to report bugs for a specific platform module.
-* We offer *professional support* services from our team: link:https://holon-platform.com/support[learn more].
+* We offer *professional support* services from our team: link:https://holon-platform.com/enterprise-support[learn more].
 
 === Examples
 
