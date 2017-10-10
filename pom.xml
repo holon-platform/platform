@@ -65,11 +65,11 @@
 		<bintray.package>platform</bintray.package>
 
 		<!-- Core -->
-		<holon.core.version>5.0.0</holon.core.version>
+		<holon.core.version>5.0.1</holon.core.version>
 		<!-- JSON -->
 		<holon.json.version>5.0.0</holon.json.version>
 		<!-- JAX-RS -->
-		<holon.jaxrs.version>5.0.0</holon.jaxrs.version>
+		<holon.jaxrs.version>5.0.1</holon.jaxrs.version>
 		<!-- JDBC -->
 		<holon.jdbc.version>5.0.0</holon.jdbc.version>
 		<!-- JDBC Datastore -->
