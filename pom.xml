@@ -65,23 +65,23 @@
 		<bintray.package>platform</bintray.package>
 
 		<!-- Core -->
-		<holon.core.version>5.0.3</holon.core.version>
+		<holon.core.version>5.0.4</holon.core.version>
 		<!-- JSON -->
 		<holon.json.version>5.0.2</holon.json.version>
 		<!-- JAX-RS -->
 		<holon.jaxrs.version>5.0.3</holon.jaxrs.version>
 		<!-- JDBC -->
-		<holon.jdbc.version>5.0.2</holon.jdbc.version>
+		<holon.jdbc.version>5.0.3</holon.jdbc.version>
 		<!-- JDBC Datastore -->
-		<holon.jdbc.datastore.version>5.0.2</holon.jdbc.datastore.version>
+		<holon.jdbc.datastore.version>5.0.3</holon.jdbc.datastore.version>
 		<!-- JPA Datastore -->
-		<holon.jpa.datastore.version>5.0.2</holon.jpa.datastore.version>
+		<holon.jpa.datastore.version>5.0.3</holon.jpa.datastore.version>
 		<!-- JPA Datastore QueryDSL -->
 		<holon.jpa.datastore.querydsl.version>5.0.2</holon.jpa.datastore.querydsl.version>
 		<!-- Vaadin -->
-		<holon.vaadin.version>5.0.2</holon.vaadin.version>
+		<holon.vaadin.version>5.0.3</holon.vaadin.version>
 		<!-- Vaadin7 -->
-		<holon.vaadin7.version>5.0.1</holon.vaadin7.version>
+		<holon.vaadin7.version>5.0.2</holon.vaadin7.version>
 
 	</properties>
 
