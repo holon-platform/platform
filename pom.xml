@@ -4,11 +4,11 @@
 	<parent>
 		<groupId>com.holon-platform</groupId>
 		<artifactId>parent</artifactId>
-		<version>1.0.9</version>
+		<version>1.0.10</version>
 	</parent>
 
 	<artifactId>platform-root</artifactId>
-	<version>5.0.7-SNAPSHOT</version>
+	<version>5.1.0-SNAPSHOT</version>
 
 	<packaging>pom</packaging>
 
@@ -65,21 +65,21 @@
 		<bintray.package>platform</bintray.package>
 
 		<!-- Core -->
-		<holon.core.version>5.0.6</holon.core.version>
+		<holon.core.version>5.1.0-SNAPSHOT</holon.core.version>
 		<!-- JSON -->
-		<holon.json.version>5.0.4</holon.json.version>
+		<holon.json.version>5.1.0-SNAPSHOT</holon.json.version>
 		<!-- JAX-RS -->
-		<holon.jaxrs.version>5.0.5</holon.jaxrs.version>
+		<holon.jaxrs.version>5.1.0-SNAPSHOT</holon.jaxrs.version>
 		<!-- JDBC -->
-		<holon.jdbc.version>5.0.4</holon.jdbc.version>
+		<holon.jdbc.version>5.1.0-SNAPSHOT</holon.jdbc.version>
 		<!-- JDBC Datastore -->
-		<holon.jdbc.datastore.version>5.0.5</holon.jdbc.datastore.version>
+		<holon.jdbc.datastore.version>5.1.0-SNAPSHOT</holon.jdbc.datastore.version>
 		<!-- JPA Datastore -->
-		<holon.jpa.datastore.version>5.0.4</holon.jpa.datastore.version>
+		<holon.jpa.datastore.version>5.1.0-SNAPSHOT</holon.jpa.datastore.version>
 		<!-- JPA Datastore QueryDSL -->
-		<holon.jpa.datastore.querydsl.version>5.0.3</holon.jpa.datastore.querydsl.version>
+		<holon.jpa.datastore.querydsl.version>5.1.0-SNAPSHOT</holon.jpa.datastore.querydsl.version>
 		<!-- Vaadin -->
-		<holon.vaadin.version>5.0.5</holon.vaadin.version>
+		<holon.vaadin.version>5.1.0-SNAPSHOT</holon.vaadin.version>
 		<!-- Vaadin7 -->
 		<holon.vaadin7.version>5.0.2</holon.vaadin7.version>
 
