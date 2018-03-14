@@ -221,6 +221,19 @@ The Holon *JDBC Datastore* module is the _Java DataBase Connectivity_ reference 
 |link:https://github.com/holon-platform/holon-datastore-jdbc/issues[github.com/holon-platform/holon-datastore-jdbc/issues]
 |===
 
+=== Holon JPA
+
+The Holon Platform *JPA* module contains the base support classes for the _Java Persistence API_. Especially, provides a set of JPA annotations bean post processors to seamlessy use and configure JPA entity beans within the 
+Holon Platform `Property` architecture and bean introspection facilities.
+
+|===
+|Documentation |Sources |Issues
+
+|link:holon-jpa.html[html] \| link:pdf/holon-jpa.pdf[pdf]
+|link:https://github.com/holon-platform/holon-jpa[github.com/holon-platform/holon-jpa]
+|link:https://github.com/holon-platform/holon-jpa/issues[github.com/holon-platform/holon-jpa/issues]
+|===
+
 === Holon JPA Datastore
 
 The Holon *JPA Datastore* module is the _Java Persistence API_ reference implementation of the link:holon-core.html#Datastore[Datastore] abstraction.
