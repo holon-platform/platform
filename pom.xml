@@ -84,7 +84,7 @@
 		<!-- Vaadin -->
 		<holon.vaadin.version>5.1.0-SNAPSHOT</holon.vaadin.version>
 		<!-- Vaadin7 -->
-		<holon.vaadin7.version>5.0.2</holon.vaadin7.version>
+		<holon.vaadin7.version>5.1.0-SNAPSHOT</holon.vaadin7.version>
 
 	</properties>
 
