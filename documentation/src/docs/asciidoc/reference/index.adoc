@@ -1,4 +1,6 @@
-= image:holon-logo.png[Holon] The Holon Platform
+= image:holon-logo.png[Holon] The Holon Platform - Reference manual
+:description: Holon platform reference documentation. \
+The Holon Platform is a Java development ecosystem to create and maintain high quality, enterprise-grade, web applications and services. The platform is organized in modules:  the documentation of each module is available from this index page.
 :revnumber: {project-version}
 :linkattrs:
 :sectnums:
@@ -7,7 +9,7 @@
 :toclevels: 3
 :docsurl: http://holon-platform.com/docs
 
-Copyright © 2016-2017
+Copyright © 2016-2018
 
 _Copies of this document may be made for your own use and for distribution to others, provided that you do not charge any fee for such copies and further provided that each copy contains this Copyright Notice, whether distributed in print or electronically._
 
@@ -21,7 +23,7 @@ The Holon Platform reference guide is available as **HTML** and  **PDF** documen
 
 Each platform *module* is shipped with its own documentation, which can be accessed and downloaded independently. See the <<modules>> section for the available modules list and their documentation resources.
 
-TIP: The Holon Platform is open source, including the documentation. If you find problems with the documentation resources or if you just want to improve them, please link:https://github.com/holon-platform/platform[get involved].
+TIP: The Holon Platform is Open Source, including this documentation. If you find problems with the documentation resources or if you just want to improve them, please link:https://github.com/holon-platform/platform[get involved^].
 
 === Getting help and report bugs
 
@@ -31,7 +33,9 @@ Besides this reference guide, for more advanced topics or if you have troubles w
 * Report bugs at link:https://github.com/holon-platform/platform/issues[github.com/holon-platform/platform/issues]. See the <<modules>> section to report bugs for a specific platform module.
 * We offer *professional support* services from our team: link:https://holon-platform.com/enterprise-support[learn more].
 
-=== Examples
+=== Tutorials and examples
+
+A set of *tutorials* is available, see the link:https://holon-platform.com/tutorials[Holon Platform Tutorials^].
 
 See link:https://github.com/holon-platform/holon-examples[github.com/holon-platform/holon-examples] for a rich set of *example* projects.
 
@@ -43,23 +47,41 @@ The Holon Platform is a Java development ecosystem to create and maintain high q
 
 Some main platform key points are:
 
-* *Provides "real" Java API*: the Holon platform is designed as a real Java API, with the aim to leverage all new Java 8 features and to create strong abstraction layers to ensure implementation details encapsulation, high productivity and long-term maintanability with a minimal application upgrade effort to follow the platform evolution.
+* *Provides "real" Java API*: the Holon platform is designed as a real Java API, with the aim to leverage the most recent Java features and to create strong abstraction layers to ensure implementation details encapsulation, high productivity and long-term maintanability with a minimal application upgrade effort to follow the platform evolution.
 
-* It's *modular and full-stack* at the same time: the Holon platform provides a full-stack application development environment, but you can select only the components or modules you need and replace or extend them leveraging on the high configurability and extensibility features ensured by the platform architecture.
+* It is *modular and full-stack* at the same time: the Holon platform provides a full-stack application development environment, but you can select only the components or modules you need and replace or extend them leveraging on the high configurability and extensibility features ensured by the platform architecture.
 
-* The *`Property` data model*: the Holon platform property data model architecture allows to use an application data model which is independent from the persistence technology and make it a shared asset for all application layers, from the backend to the UI, avoiding code duplication and using a consistent API to manage it.
+* The *`Property` data model and the `Datastore` API*: the Holon platform property data model architecture allows to use an application data model which is independent from the persistence technology and make it a shared asset for all application layers, from the backend to the UI, avoiding code duplication and using a consistent API to manage it.
 
 * It's *extensible by design*: the Holon platform components are designed to be highly extensible, configurable and integrable with other frameworks or libraries. This way it is the platform which must fit your needs, and not vice-versa.
 
-The platform is organized in *modules*: each module corresponds to a GitHub repository and it is composed by a number of _artifacts_.
-
-All the modules depends from the _core_ module, and any other module (and its _artifacts_) can be used independently, to suit each project/application needs with a lightweight dependency set.
+The platform is organized in *modules*: each module corresponds to a GitHub repository and it is composed by a number of _artifacts_. All the modules depends from the _core_ module, and any other module (and its _artifacts_) can be used independently, to suit each project/application needs with a lightweight dependency set.
 
 See the <<modules>> section of the documentation for a list of all available modules.
 
 === System Requirements
 
-The Holon Platform {revnumber} requires https://www.java.com[Java 8] or above. Explicit build support is provided for link:https://maven.apache.org[Maven] (3+).
+The Holon Platform {revnumber} requires https://www.java.com[Java 8] or above. 
+
+Explicit build support is provided for link:https://maven.apache.org[Maven] (3+).
+
+[[WhatsNew51x]]
+== *What's new in version 5.1.x*
+
+Along with all the latest bug fixes, there is also a set of useful features that made it to the *5.1 minor version*. The 5.1.x API is fully compatible with the 5.0.x API. The list of the new and noteworthy features is available following the links below, organized by module: 
+
+* What's new in the link:holon-core.html#WhatsNew51x[Core module^]
+* What's new in the link:holon-json.html#WhatsNew51x[JSON module^]
+* What's new in the link:holon-jaxrs.html#WhatsNew51x[JAX-RS module^]
+* What's new in the link:holon-jdbc.html#WhatsNew51x[JDBC module^]
+* The new link:holon-jpa.html[JPA module^] is now available
+* What's new in the link:holon-datastore-jdbc.html#WhatsNew51x[JDBC Datastore module^]
+* What's new in the link:holon-datastore-jpa.html#WhatsNew51x[JPA Datastore module^]
+* What's new in the link:holon-vaadin.html#WhatsNew51x[Vaadin module^]
+
+Each module documentation section, when necessary, provides a list of the _deprecated_ API operations and a migration guide to learn how to replace these operations with the new provided ones.
+
+Besides the new features documentation updates, the Holon Platform reference manual has been *improved and extended* to provide an even more useful and effective documentation, with more code examples and detailed explanations of the Holon Platform APIs.
 
 === Release notes
 
@@ -160,6 +182,8 @@ See each module specific documentation for available Spring and Spring Boot conf
 
 [[modules]]
 == Holon Platform Modules
+
+NOTE: See the reference manual of each module to lean about the new and noteworthy features introduced with the 5.1.x platform version. 
 
 === Holon Core
 
