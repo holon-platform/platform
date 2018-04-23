@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>com.holon-platform</groupId>
 		<artifactId>platform-root</artifactId>
-		<version>5.0.7-SNAPSHOT</version>
+		<version>5.1.0-SNAPSHOT</version>
 	</parent>
 
 	<artifactId>documentation</artifactId>
@@ -97,6 +97,13 @@
 		</dependency>
 		<dependency>
 			<groupId>com.holon-platform.jpa</groupId>
+			<artifactId>documentation-jpa</artifactId>
+			<version>${holon.jpa.version}</version>
+			<classifier>documentation</classifier>
+			<type>zip</type>
+		</dependency>
+		<dependency>
+			<groupId>com.holon-platform.jpa</groupId>
 			<artifactId>documentation-datastore-jpa</artifactId>
 			<version>${holon.jpa.datastore.version}</version>
 			<classifier>documentation</classifier>
@@ -157,6 +164,13 @@
 			<groupId>com.holon-platform.jdbc</groupId>
 			<artifactId>holon-datastore-jdbc-root</artifactId>
 			<version>${holon.jdbc.datastore.version}</version>
+			<classifier>apidocs</classifier>
+			<type>zip</type>
+		</dependency>
+		<dependency>
+			<groupId>com.holon-platform.jpa</groupId>
+			<artifactId>holon-jpa-root</artifactId>
+			<version>${holon.jpa.version}</version>
 			<classifier>apidocs</classifier>
 			<type>zip</type>
 		</dependency>

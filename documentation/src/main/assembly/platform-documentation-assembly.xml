@@ -107,6 +107,13 @@
 		</dependencySet>
 		<dependencySet>
 			<includes>
+				<include>*:holon-jpa-root:zip:apidocs</include>
+			</includes>
+			<outputDirectory>api/holon-jpa</outputDirectory>
+			<unpack>true</unpack>
+		</dependencySet>
+		<dependencySet>
+			<includes>
 				<include>*:holon-datastore-jpa-root:zip:apidocs</include>
 			</includes>
 			<outputDirectory>api/holon-datastore-jpa</outputDirectory>
