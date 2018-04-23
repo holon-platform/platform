@@ -66,7 +66,7 @@ The Holon Platform {revnumber} requires https://www.java.com[Java 8] or above.
 Explicit build support is provided for link:https://maven.apache.org[Maven] (3+).
 
 [[WhatsNew51x]]
-== *What's new in version 5.1.x*
+== What's new in version 5.1.x
 
 Along with all the latest bug fixes, there is also a set of useful features that made it to the *5.1 minor version*. The 5.1.x API is fully compatible with the 5.0.x API. The list of the new and noteworthy features is available following the links below, organized by module: 
 
@@ -312,3 +312,182 @@ A *Vaadin* UI integration module using the version *7* of the Vaadin framework i
 
 See link:https://holonplatform.com[The Holon Platform website] for additional resources, news, events and commercial support.
 
+== Appendices
+
+[[starters]]
+=== Spring Boot _starters_ reference
+
+Below a list of the available link:https://docs.spring.io/spring-boot/docs/current/reference/htmlsingle/#using-boot-starter[Spring Boot starters^] in the Holon Platform version {revnumber}, ordered by module:
+
+|===
+|Module |Group id |Artifact id |Name |Description |Reference
+
+|link:holon-core.html[Core]
+a|`com.holon-platform.core`
+a|`holon-starter`
+a|*Core starter*
+a|Base starter to enable the core auto-configuration features provided by the Holon Platform: Spring *context scope*, Spring *tenant scope* and JWT configuration.
+|link:holon-core.html#Starters[Reference]
+
+|link:holon-core.html[Core]
+a|`com.holon-platform.core`
+a|`holon-starter-test`
+a|*Core test starter*
+a|Convenience starter to provide a base set of *test dependencies*, including Spring and Spring Boot test dependencies, JUnit and Mockito.
+|link:holon-core.html#Starters[Reference]
+
+|link:holon-jaxrs.html[JAX-RS]
+a|`com.holon-platform.jaxrs`
+a|`holon-starter-jersey-client`
+a|*Jersey + Jackson client starter*
+a|JAX-RS _client_ starter using *Jersey* as JAX-RS implementation and *Jackson* as JSON provider.
+|link:holon-jaxrs.html#JaxrsStarters[Reference]
+
+|link:holon-jaxrs.html[JAX-RS]
+a|`com.holon-platform.jaxrs`
+a|`holon-starter-jersey-client-gson`
+a|*Jersey + Gson client starter*
+a|JAX-RS _client_ starter using *Jersey* as JAX-RS implementation and *Gson* as JSON provider.
+|link:holon-jaxrs.html#JaxrsStarters[Reference]
+
+|link:holon-jaxrs.html[JAX-RS]
+a|`com.holon-platform.jaxrs`
+a|`holon-starter-resteasy-client`
+a|*Jersey + Jackson client starter*
+a|JAX-RS _client_ starter using *Resteasy* as JAX-RS implementation and *Jackson* as JSON provider.
+|link:holon-jaxrs.html#JaxrsStarters[Reference]
+
+|link:holon-jaxrs.html[JAX-RS]
+a|`com.holon-platform.jaxrs`
+a|`holon-starter-resteasy-client-gson`
+a|*Jersey + Jackson client starter*
+a|JAX-RS _client_ starter using *Resteasy* as JAX-RS implementation and *Gson* as JSON provider.
+|link:holon-jaxrs.html#JaxrsStarters[Reference]
+
+|link:holon-jaxrs.html[JAX-RS]
+a|`com.holon-platform.jaxrs`
+a|`holon-starter-jersey`
+a|*Jersey + Tomcat + Jackson server starter*
+a|JAX-RS _server_ starter using *Jersey* as JAX-RS implementation, *Tomcat* as embedded servlet container and *Jackson* as JSON provider.
+|link:holon-jaxrs.html#JaxrsStarters[Reference]
+
+|link:holon-jaxrs.html[JAX-RS]
+a|`com.holon-platform.jaxrs`
+a|`holon-starter-jersey-gson`
+a|*Jersey + Tomcat + Gson server starter*
+a|JAX-RS _server_ starter using *Jersey* as JAX-RS implementation, *Tomcat* as embedded servlet container and *Gson* as JSON provider.
+|link:holon-jaxrs.html#JaxrsStarters[Reference]
+
+|link:holon-jaxrs.html[JAX-RS]
+a|`com.holon-platform.jaxrs`
+a|`holon-starter-jersey-undertow`
+a|*Jersey + Undertow + Jackson server starter*
+a|JAX-RS _server_ starter using *Jersey* as JAX-RS implementation, *Undertow* as embedded servlet container and *Jackson* as JSON provider.
+|link:holon-jaxrs.html#JaxrsStarters[Reference]
+
+|link:holon-jaxrs.html[JAX-RS]
+a|`com.holon-platform.jaxrs`
+a|`holon-starter-jersey-undertow-gson`
+a|*Jersey + Undertow + Gson server starter*
+a|JAX-RS _server_ starter using *Jersey* as JAX-RS implementation, *Undertow* as embedded servlet container and *Gson* as JSON provider.
+|link:holon-jaxrs.html#JaxrsStarters[Reference]
+
+|link:holon-jaxrs.html[JAX-RS]
+a|`com.holon-platform.jaxrs`
+a|`holon-starter-resteasy`
+a|*Resteasy + Tomcat + Jackson server starter*
+a|JAX-RS _server_ starter using *Resteasy* as JAX-RS implementation, *Tomcat* as embedded servlet container and *Jackson* as JSON provider.
+|link:holon-jaxrs.html#JaxrsStarters[Reference]
+
+|link:holon-jaxrs.html[JAX-RS]
+a|`com.holon-platform.jaxrs`
+a|`holon-starter-resteasy-gson`
+a|*Resteasy + Tomcat + Gson server starter*
+a|JAX-RS _server_ starter using *Resteasy* as JAX-RS implementation, *Tomcat* as embedded servlet container and *Gson* as JSON provider.
+|link:holon-jaxrs.html#JaxrsStarters[Reference]
+
+|link:holon-jaxrs.html[JAX-RS]
+a|`com.holon-platform.jaxrs`
+a|`holon-starter-resteasy-undertow`
+a|*Resteasy + Undertow + Jackson server starter*
+a|JAX-RS _server_ starter using *Resteasy* as JAX-RS implementation, *Undertow* as embedded servlet container and *Jackson* as JSON provider.
+|link:holon-jaxrs.html#JaxrsStarters[Reference]
+
+|link:holon-jaxrs.html[JAX-RS]
+a|`com.holon-platform.jaxrs`
+a|`holon-starter-resteasy-undertow-gson`
+a|*Resteasy + Undertow + Gson server starter*
+a|JAX-RS _server_ starter using *Resteasy* as JAX-RS implementation, *Undertow* as embedded servlet container and *Gson* as JSON provider.
+|link:holon-jaxrs.html#JaxrsStarters[Reference]
+
+|link:holon-jdbc.html[JDBC]
+a|`com.holon-platform.jdbc`
+a|`holon-starter-jdbc`
+a|*JDBC DataSource starter*
+a|Starter to enable the Holon Platform `DataSource` auto-configuration features, as described in the link:holon-jdbc#EnableDataSource[DataSource auto-configuration documentation].
+|link:holon-jdbc.html#JDBCSpring[Reference]
+
+|link:holon-jdbc.html[JDBC]
+a|`com.holon-platform.jdbc`
+a|`holon-starter-jdbc-hikaricp`
+a|*JDBC DataSource starter + HikariCP*
+a|Starter to enable the Holon Platform `DataSource` auto-configuration features, as described in the link:holon-jdbc#EnableDataSource[DataSource auto-configuration documentation] and additionally providing the https://github.com/brettwooldridge/HikariCP[HikariCP^] pooling DataSource dependency.
+|link:holon-jdbc.html#JDBCSpring[Reference]
+
+|link:holon-datastore-jdbc.html[JDBC Datastore]
+a|`com.holon-platform.jdbc`
+a|`holon-starter-jdbc-datastore`
+a|*JDBC Datastore starter*
+a|JDBC `Datastore` auto-configuration starter, including the Holon Platform `DataSource` auto-configuration features.
+|link:holon-datastore-jdbc.html#JDBCDatastoreSpringBootStarters[Reference]
+
+|link:holon-datastore-jdbc.html[JDBC Datastore]
+a|`com.holon-platform.jdbc`
+a|`holon-starter-jdbc-datastore-hikaricp`
+a|*JDBC Datastore starter + HikariCP*
+a|JDBC `Datastore` auto-configuration starter, including the Holon Platform `DataSource` auto-configuration features and additionally providing the https://github.com/brettwooldridge/HikariCP[HikariCP^] pooling DataSource dependency.
+|link:holon-datastore-jdbc.html#JDBCDatastoreSpringBootStarters[Reference]
+
+|link:holon-datastore-jpa.html[JPA Datastore]
+a|`com.holon-platform.jpa`
+a|`holon-starter-jpa-hibernate`
+a|*JPA configuration and Datastore starter using Hibernate*
+a|Spring JPA stack and JPA `Datastore` auto-configuration starter, using *Hibernate ORM* as persistence provider.
+|link:holon-datastore-jpa.html#JPADatastoreSpringBootStarters[Reference]
+
+|link:holon-datastore-jpa.html[JPA Datastore]
+a|`com.holon-platform.jpa`
+a|`holon-starter-jpa-eclipselink`
+a|*JPA configuration and Datastore starter using Eclipselink*
+a|Spring JPA stack and JPA `Datastore` auto-configuration starter, using *Eclipselink* as persistence provider.
+|link:holon-datastore-jpa.html#JPADatastoreSpringBootStarters[Reference]
+
+|link:holon-datastore-jpa-querydsl.html[QueryDSL JPA]
+a|`com.holon-platform.jpa`
+a|`holon-starter-jpa-querydsl-hibernate`
+a|*JPA configuration and Datastore starter with QueryDSL integration using Hibernate*
+a|Spring JPA stack, JPA `Datastore` and *QueryDSL* integration auto-configuration starter, using *Hibernate ORM* as persistence provider.
+|link:holon-datastore-jpa-querydsl.html[Reference]
+
+|link:holon-datastore-jpa-querydsl.html[QueryDSL JPA]
+a|`com.holon-platform.jpa`
+a|`holon-starter-jpa-querydsl-eclipselink`
+a|*JPA configuration and Datastore starter with QueryDSL integration using Eclipselink*
+a|Spring JPA stack, JPA `Datastore` and *QueryDSL* integration auto-configuration starter, using *Eclipselink* as persistence provider.
+|link:holon-datastore-jpa-querydsl.html[Reference]
+
+|link:holon-vaadin.html[Vaadin]
+a|`com.holon-platform.vaadin`
+a|`holon-starter-vaadin`
+a|*Vaadin application starter using Tomcat*
+a|link:https://vaadin.com[Vaadin^] application starter with Holon Platform integration auto-configuration, including `ViewNavigator` auto-configuration, using *Tomcat* as embedded servlet container.  
+|link:holon-vaadin.html#VaadinSpringBoot[Reference]
+
+|link:holon-vaadin.html[Vaadin]
+a|`com.holon-platform.vaadin`
+a|`holon-starter-vaadin-undertow`
+a|*Vaadin application starter using Undertow*
+a|link:https://vaadin.com[Vaadin^] application starter with Holon Platform integration auto-configuration, including `ViewNavigator` auto-configuration, using *Undertow* as embedded servlet container.  
+|link:holon-vaadin.html#VaadinSpringBoot[Reference]
+
+|===
