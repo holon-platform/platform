@@ -1,5 +1,7 @@
 # The Holon Platform
 
+> Latest release: [5.1.0](#obtain-the-artifacts)
+
 The [Holon Platform](https://holon-platform.com) is a __Java__ development ecosystem to create and maintain high quality, enteprise-grade web applications and services.
 
 Some of the main platform key points are:
@@ -30,6 +32,10 @@ The Holon Platform is built using __Java 8__, so you need a JRE/JDK version 8 or
 
 See [releases](https://github.com/holon-platform/platform/releases) for the available releases.
 
+#### 5.1.x release notes
+
+See [What's new in version 5.1.x](https://docs.holon-platform.com/5.1.0/reference/#WhatsNew51x) to learn about the new features and API operations of the 5.1 minor release.
+
 ### Platform distribution versioning
 
 The Holon platform use the [Semantic Versioning](http://semver.org) system and each platform _module_ is versioned following the semantic versioning convention.
@@ -56,7 +62,7 @@ _Platform Maven BOM:_
     <dependency>
         <groupId>com.holon-platform</groupId>
         <artifactId>bom</artifactId>
-        <version>5.0.6</version>
+        <version>5.1.0</version>
         <type>pom</type>
         <scope>import</scope>
     </dependency>
