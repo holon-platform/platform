@@ -34,7 +34,7 @@ See [releases](https://github.com/holon-platform/platform/releases) for the avai
 
 #### 5.1.x release notes
 
-See [What's new in version 5.1.x](https://docs.holon-platform.com/5.1.0/reference/#WhatsNew51x) to learn about the new features and API operations of the 5.1 minor release.
+See [What's new in version 5.1.x](https://docs.holon-platform.com/current/reference/#WhatsNew51x) to learn about the new features and API operations of the 5.1 minor release.
 
 ### Platform distribution versioning
 
