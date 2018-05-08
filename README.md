@@ -62,7 +62,7 @@ _Platform Maven BOM:_
     <dependency>
         <groupId>com.holon-platform</groupId>
         <artifactId>bom</artifactId>
-        <version>5.1.0</version>
+        <version>5.1.1</version>
         <type>pom</type>
         <scope>import</scope>
     </dependency>
