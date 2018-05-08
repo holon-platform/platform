@@ -71,17 +71,17 @@
 		<!-- JAX-RS -->
 		<holon.jaxrs.version>5.1.0</holon.jaxrs.version>
 		<!-- JDBC -->
-		<holon.jdbc.version>5.1.0</holon.jdbc.version>
+		<holon.jdbc.version>5.1.1</holon.jdbc.version>
 		<!-- JPA -->
 		<holon.jpa.version>5.1.0</holon.jpa.version>
 		<!-- JDBC Datastore -->
-		<holon.jdbc.datastore.version>5.1.0</holon.jdbc.datastore.version>
+		<holon.jdbc.datastore.version>5.1.1</holon.jdbc.datastore.version>
 		<!-- JPA Datastore -->
 		<holon.jpa.datastore.version>5.1.0</holon.jpa.datastore.version>
 		<!-- JPA Datastore QueryDSL -->
 		<holon.jpa.datastore.querydsl.version>5.1.0</holon.jpa.datastore.querydsl.version>
 		<!-- Vaadin -->
-		<holon.vaadin.version>5.1.0</holon.vaadin.version>
+		<holon.vaadin.version>5.1.1</holon.vaadin.version>
 		<!-- Vaadin7 -->
 		<holon.vaadin7.version>5.1.0</holon.vaadin7.version>
 
