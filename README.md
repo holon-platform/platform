@@ -1,6 +1,6 @@
 # The Holon Platform
 
-> Latest release: [5.1.0](#obtain-the-artifacts)
+> Latest release: [5.1.1](#obtain-the-artifacts)
 
 The [Holon Platform](https://holon-platform.com) is a __Java__ development ecosystem to create and maintain high quality, enteprise-grade web applications and services.
 
