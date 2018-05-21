@@ -1,4 +1,6 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
@@ -65,25 +67,25 @@
 		<bintray.package>platform</bintray.package>
 
 		<!-- Core -->
-		<holon.core.version>5.1.0</holon.core.version>
+		<holon.core.version>5.1.1</holon.core.version>
 		<!-- JSON -->
-		<holon.json.version>5.1.0</holon.json.version>
+		<holon.json.version>5.1.1</holon.json.version>
 		<!-- JAX-RS -->
-		<holon.jaxrs.version>5.1.0</holon.jaxrs.version>
+		<holon.jaxrs.version>5.1.1</holon.jaxrs.version>
 		<!-- JDBC -->
-		<holon.jdbc.version>5.1.1</holon.jdbc.version>
+		<holon.jdbc.version>5.1.2</holon.jdbc.version>
 		<!-- JPA -->
-		<holon.jpa.version>5.1.0</holon.jpa.version>
+		<holon.jpa.version>5.1.1</holon.jpa.version>
 		<!-- JDBC Datastore -->
-		<holon.jdbc.datastore.version>5.1.1</holon.jdbc.datastore.version>
+		<holon.jdbc.datastore.version>5.1.2</holon.jdbc.datastore.version>
 		<!-- JPA Datastore -->
-		<holon.jpa.datastore.version>5.1.0</holon.jpa.datastore.version>
+		<holon.jpa.datastore.version>5.1.1</holon.jpa.datastore.version>
 		<!-- JPA Datastore QueryDSL -->
-		<holon.jpa.datastore.querydsl.version>5.1.0</holon.jpa.datastore.querydsl.version>
+		<holon.jpa.datastore.querydsl.version>5.1.1</holon.jpa.datastore.querydsl.version>
 		<!-- Vaadin -->
-		<holon.vaadin.version>5.1.1</holon.vaadin.version>
+		<holon.vaadin.version>5.1.2</holon.vaadin.version>
 		<!-- Vaadin7 -->
-		<holon.vaadin7.version>5.1.0</holon.vaadin7.version>
+		<holon.vaadin7.version>5.1.1</holon.vaadin7.version>
 
 	</properties>
 
