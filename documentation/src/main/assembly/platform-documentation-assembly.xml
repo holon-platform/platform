@@ -28,7 +28,7 @@
 				<include>**/*.css</include>
 			</includes>
 		</fileSet>
-		
+
 		<fileSet>
 			<directory>target/maven-shared-archive-resources/documentation</directory>
 			<outputDirectory>reference/images</outputDirectory>
@@ -124,6 +124,13 @@
 				<include>*:holon-datastore-jpa-querydsl-root:zip:apidocs</include>
 			</includes>
 			<outputDirectory>api/holon-datastore-jpa-querydsl</outputDirectory>
+			<unpack>true</unpack>
+		</dependencySet>
+		<dependencySet>
+			<includes>
+				<include>*:holon-datastore-mongo-root:zip:apidocs</include>
+			</includes>
+			<outputDirectory>api/holon-datastore-mongo</outputDirectory>
 			<unpack>true</unpack>
 		</dependencySet>
 		<dependencySet>

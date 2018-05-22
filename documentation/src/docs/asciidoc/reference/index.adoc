@@ -282,6 +282,18 @@ This module provides a set of link:http://www.querydsl.com[QueryDSL] integration
 |link:https://github.com/holon-platform/holon-datastore-jpa-querydsl/issues[github.com/holon-platform/holon-datastore-jpa-querydsl/issues]
 |===
 
+=== Holon MongoDB Datastore
+
+The Holon *MongoDB Datastore* module is the link:https://www.mongodb.com[MongoDB^] reference implementation of the link:holon-core.html#Datastore[Datastore] abstraction.
+
+|===
+|Documentation |Sources |Issues
+
+|link:holon-datastore-mongo.html[html] \| link:pdf/holon-datastore-mongo.pdf[pdf]
+|link:https://github.com/holon-platform/holon-datastore-mongo[github.com/holon-platform/holon-datastore-mongo]
+|link:https://github.com/holon-platform/holon-datastore-mongo/issues[github.com/holon-platform/holon-datastore-mongo/issues]
+|===
+
 === Holon Vaadin UI
 
 The Holon Platform *Vaadin* module uses link:https://vaadin.com[Vaadin] to build *User Interfaces* for web applications using _Java_. This module provides integration with platform foundation architecture, a set of components and builders, configuration helpers, a complete link:holon-core.html#Datastore[Datastore] integration with Vaadin data binding and a full support for _virtual_ pages and navigation.
