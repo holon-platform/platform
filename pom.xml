@@ -81,7 +81,7 @@
 		<!-- JPA Datastore QueryDSL -->
 		<holon.jpa.datastore.querydsl.version>5.1.1</holon.jpa.datastore.querydsl.version>
 		<!-- Vaadin -->
-		<holon.vaadin.version>5.1.3</holon.vaadin.version>
+		<holon.vaadin.version>5.1.4</holon.vaadin.version>
 		<!-- Vaadin7 -->
 		<holon.vaadin7.version>5.1.2</holon.vaadin7.version>
 
