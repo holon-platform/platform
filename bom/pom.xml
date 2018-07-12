@@ -96,6 +96,8 @@
 			</dependency>
 
 			<!-- Holon MongoDB Datastore -->
+			<!-- Waiting for a stable version -->
+			<!-- 
 			<dependency>
 				<groupId>com.holon-platform.mongo</groupId>
 				<artifactId>holon-datastore-mongo-bom</artifactId>
@@ -103,6 +105,7 @@
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
+			 -->
 
 			<!-- Holon Vaadin -->
 			<dependency>

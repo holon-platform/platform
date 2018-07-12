@@ -118,6 +118,8 @@
 			<classifier>documentation</classifier>
 			<type>zip</type>
 		</dependency>
+		<!-- Waiting for a stable version -->
+		<!-- 
 		<dependency>
 			<groupId>com.holon-platform.mongo</groupId>
 			<artifactId>documentation-datastore-mongo</artifactId>
@@ -125,6 +127,7 @@
 			<classifier>documentation</classifier>
 			<type>zip</type>
 		</dependency>
+		-->
 		<dependency>
 			<groupId>com.holon-platform.vaadin</groupId>
 			<artifactId>documentation-vaadin</artifactId>
@@ -197,6 +200,8 @@
 			<classifier>apidocs</classifier>
 			<type>zip</type>
 		</dependency>
+		<!-- Waiting for a stable version -->
+		<!-- 
 		<dependency>
 			<groupId>com.holon-platform.mongo</groupId>
 			<artifactId>holon-datastore-mongo-root</artifactId>
@@ -204,6 +209,7 @@
 			<classifier>apidocs</classifier>
 			<type>zip</type>
 		</dependency>
+		-->
 		<dependency>
 			<groupId>com.holon-platform.vaadin</groupId>
 			<artifactId>holon-vaadin-root</artifactId>

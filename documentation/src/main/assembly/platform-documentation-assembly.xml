@@ -126,6 +126,8 @@
 			<outputDirectory>api/holon-datastore-jpa-querydsl</outputDirectory>
 			<unpack>true</unpack>
 		</dependencySet>
+		<!-- Waiting for a stable version -->
+		<!-- 
 		<dependencySet>
 			<includes>
 				<include>*:holon-datastore-mongo-root:zip:apidocs</include>
@@ -133,6 +135,7 @@
 			<outputDirectory>api/holon-datastore-mongo</outputDirectory>
 			<unpack>true</unpack>
 		</dependencySet>
+		-->
 		<dependencySet>
 			<includes>
 				<include>com.holon-platform.vaadin:holon-vaadin-root:zip:apidocs</include>
