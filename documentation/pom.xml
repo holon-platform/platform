@@ -68,6 +68,13 @@
 			<type>zip</type>
 		</dependency>
 		<dependency>
+			<groupId>com.holon-platform.reactor</groupId>
+			<artifactId>documentation-reactor</artifactId>
+			<version>${holon.reactor.version}</version>
+			<classifier>documentation</classifier>
+			<type>zip</type>
+		</dependency>
+		<dependency>
 			<groupId>com.holon-platform.json</groupId>
 			<artifactId>documentation-json</artifactId>
 			<version>${holon.json.version}</version>
@@ -116,8 +123,6 @@
 			<classifier>documentation</classifier>
 			<type>zip</type>
 		</dependency>
-		<!-- Waiting for a stable version -->
-		<!-- 
 		<dependency>
 			<groupId>com.holon-platform.mongo</groupId>
 			<artifactId>documentation-datastore-mongo</artifactId>
@@ -125,7 +130,6 @@
 			<classifier>documentation</classifier>
 			<type>zip</type>
 		</dependency>
-		-->
 		<dependency>
 			<groupId>com.holon-platform.vaadin</groupId>
 			<artifactId>documentation-vaadin</artifactId>
@@ -146,6 +150,13 @@
 			<groupId>com.holon-platform.core</groupId>
 			<artifactId>holon-root</artifactId>
 			<version>${holon.core.version}</version>
+			<classifier>apidocs</classifier>
+			<type>zip</type>
+		</dependency>
+		<dependency>
+			<groupId>com.holon-platform.reactor</groupId>
+			<artifactId>holon-reactor-root</artifactId>
+			<version>${holon.reactor.version}</version>
 			<classifier>apidocs</classifier>
 			<type>zip</type>
 		</dependency>
@@ -198,8 +209,6 @@
 			<classifier>apidocs</classifier>
 			<type>zip</type>
 		</dependency>
-		<!-- Waiting for a stable version -->
-		<!-- 
 		<dependency>
 			<groupId>com.holon-platform.mongo</groupId>
 			<artifactId>holon-datastore-mongo-root</artifactId>
@@ -207,7 +216,6 @@
 			<classifier>apidocs</classifier>
 			<type>zip</type>
 		</dependency>
-		-->
 		<dependency>
 			<groupId>com.holon-platform.vaadin</groupId>
 			<artifactId>holon-vaadin-root</artifactId>
