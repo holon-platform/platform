@@ -65,29 +65,29 @@
 		<bintray.package>platform</bintray.package>
 
 		<!-- Core -->
-		<holon.core.version>5.2.0-alpha2</holon.core.version>
+		<holon.core.version>5.2.0-beta1-SNAPSHOT</holon.core.version>
 		<!-- Reactor -->
-		<holon.reactor.version>5.2.0-alpha2</holon.reactor.version>
+		<holon.reactor.version>5.2.0-beta1-SNAPSHOT</holon.reactor.version>
 		<!-- JSON -->
-		<holon.json.version>5.2.0-alpha2</holon.json.version>
+		<holon.json.version>5.2.0-beta1-SNAPSHOT</holon.json.version>
 		<!-- JAX-RS -->
-		<holon.jaxrs.version>5.2.0-alpha2</holon.jaxrs.version>
+		<holon.jaxrs.version>5.2.0-beta1-SNAPSHOT</holon.jaxrs.version>
 		<!-- JDBC -->
-		<holon.jdbc.version>5.2.0-alpha2</holon.jdbc.version>
+		<holon.jdbc.version>5.2.0-beta1-SNAPSHOT</holon.jdbc.version>
 		<!-- JPA -->
-		<holon.jpa.version>5.2.0-alpha2</holon.jpa.version>
+		<holon.jpa.version>5.2.0-beta1-SNAPSHOT</holon.jpa.version>
 		<!-- JDBC Datastore -->
-		<holon.jdbc.datastore.version>5.2.0-alpha2</holon.jdbc.datastore.version>
+		<holon.jdbc.datastore.version>5.2.0-beta1-SNAPSHOT</holon.jdbc.datastore.version>
 		<!-- JPA Datastore -->
-		<holon.jpa.datastore.version>5.2.0-alpha2</holon.jpa.datastore.version>
+		<holon.jpa.datastore.version>5.2.0-beta1-SNAPSHOT</holon.jpa.datastore.version>
 		<!-- JPA Datastore QueryDSL -->
-		<holon.jpa.datastore.querydsl.version>5.2.0-alpha2</holon.jpa.datastore.querydsl.version>
+		<holon.jpa.datastore.querydsl.version>5.2.0-beta1-SNAPSHOT</holon.jpa.datastore.querydsl.version>
 		<!-- MongoDB Datastore -->
-		<holon.mongo.datastore.version>5.2.0-alpha2</holon.mongo.datastore.version>
+		<holon.mongo.datastore.version>5.2.0-beta1-SNAPSHOT</holon.mongo.datastore.version>
 		<!-- Vaadin -->
-		<holon.vaadin.version>5.2.0-alpha3</holon.vaadin.version>
+		<holon.vaadin.version>5.2.0-beta1-SNAPSHOT</holon.vaadin.version>
 		<!-- Vaadin7 -->
-		<holon.vaadin7.version>5.2.0-alpha2</holon.vaadin7.version>
+		<holon.vaadin7.version>5.2.0-beta1-SNAPSHOT</holon.vaadin7.version>
 
 	</properties>
 
