@@ -84,6 +84,8 @@
 		<holon.jpa.datastore.querydsl.version>5.2.0-beta1-SNAPSHOT</holon.jpa.datastore.querydsl.version>
 		<!-- MongoDB Datastore -->
 		<holon.mongo.datastore.version>5.2.0-beta1-SNAPSHOT</holon.mongo.datastore.version>
+		<!-- Vaadin Flow -->
+		<holon.vaadin.flow.version>5.2.0-beta1-SNAPSHOT</holon.vaadin.flow.version>
 		<!-- Vaadin -->
 		<holon.vaadin.version>5.2.0-beta1-SNAPSHOT</holon.vaadin.version>
 		<!-- Vaadin7 -->

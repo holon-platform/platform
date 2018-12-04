@@ -142,6 +142,13 @@
 		</dependencySet>
 		<dependencySet>
 			<includes>
+				<include>com.holon-platform.vaadin:holon-vaadin-flow-root:zip:apidocs</include>
+			</includes>
+			<outputDirectory>api/holon-vaadin-flow</outputDirectory>
+			<unpack>true</unpack>
+		</dependencySet>
+		<dependencySet>
+			<includes>
 				<include>com.holon-platform.vaadin:holon-vaadin-root:zip:apidocs</include>
 			</includes>
 			<outputDirectory>api/holon-vaadin</outputDirectory>

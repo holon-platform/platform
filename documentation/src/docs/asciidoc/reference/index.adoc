@@ -65,6 +65,29 @@ The Holon Platform {revnumber} requires https://www.java.com[Java 8] or above.
 
 Explicit build support is provided for link:https://maven.apache.org[Maven] (3+).
 
+[[WhatsNew52x]]
+== What's new in version 5.2.x
+
+Three new platform modules were introduced:
+
+* The <<ModuleReactor>> module, which provides integration between the Holon Platform core APIs, such as `Datastore` and `RestClient`, and the link:https://projectreactor.io[Project Reactor^] reactive programming model, using the `Flux` and `Mono` APIs.
+
+* The <<ModuleMongoDBDatastore>> module, the link:https://www.mongodb.com[MongoDB^] reference implementation of the link:holon-core.html#Datastore[Datastore] API, with asynchronous and reactive programming models support.
+
+* The <<ModuleVaadinFlow>> module, which uses the link:https://vaadin.com/flow[Vaadin Flow^] platform to build for web applications *UIs* using _Java_ and provides integration with platform foundation architecture and APIs.
+
+Furthermore, along with all the latest bug fixes, there is also a set of useful features that made it to the *5.2 version*. As usual, for each module the 5.2.x API is fully backward compatible.
+
+The list of the new and noteworthy features is available following the links below, organized by module: 
+
+* What's new in the link:holon-core.html#WhatsNew52x[Core module^]
+* What's new in the link:holon-json.html#WhatsNew52x[JSON module^]
+* What's new in the link:holon-jaxrs.html#WhatsNew52x[JAX-RS module^]
+* What's new in the link:holon-jdbc.html#WhatsNew52x[JDBC module^]
+* What's new in the link:holon-datastore-jdbc.html#WhatsNew52x[JDBC Datastore module^]
+* What's new in the link:holon-datastore-jpa.html#WhatsNew52x[JPA Datastore module^]
+* What's new in the link:holon-vaadin.html#WhatsNew52x[Vaadin module^]
+
 [[WhatsNew51x]]
 == What's new in version 5.1.x
 
@@ -183,8 +206,9 @@ See each module specific documentation for available Spring and Spring Boot conf
 [[modules]]
 == Holon Platform Modules
 
-NOTE: See the reference manual of each module to lean about the new and noteworthy features introduced with the 5.1.x platform version. 
+NOTE: See the reference manual of each module for the modules changelog. 
 
+[[ModuleCore]]
 === Holon Core
 
 The Holon Platform *Core* module represents the platform foundation, providing the definition of the overall architecture, base structures and APIs.
@@ -197,6 +221,20 @@ The Holon Platform *Core* module represents the platform foundation, providing t
 |link:https://github.com/holon-platform/holon-core/issues[github.com/holon-platform/holon-core/issues]
 |===
 
+[[ModuleReactor]]
+=== Holon Reactor
+
+The Holon Platform *Reactor* module provides integration between the Holon Platform core APIs, such as `Datastore` and `RestClient`, and the link:https://projectreactor.io[Project Reactor^] reactive programming model, using the `Flux` and `Mono` APIs.
+
+|===
+|Documentation |Sources |Issues
+
+|link:holon-reactor.html[html] \| link:pdf/holon-reactor.pdf[pdf]
+|link:https://github.com/holon-platform/holon-reactor[github.com/holon-platform/holon-reactor]
+|link:https://github.com/holon-platform/holon-reactor/issues[github.com/holon-platform/holon-reactor/issues]
+|===
+
+[[ModuleJSON]]
 === Holon JSON
 
 The Holon Platform *JSON* module provides link:http://www.json.org[JSON] support and integration with the platform foundation elements, using common libraries such as link:https://github.com/FasterXML/jackson[Jackson] and link:https://github.com/google/gson[Gson].
@@ -209,6 +247,7 @@ The Holon Platform *JSON* module provides link:http://www.json.org[JSON] support
 |link:https://github.com/holon-platform/holon-json/issues[github.com/holon-platform/holon-json/issues]
 |===
 
+[[ModuleJAXRS]]
 === Holon JAX-RS
 
 The Holon Platform *JAX-RS* module provides support, services and configuration helpers to build and consume *RESTful Web Services* using the _Java API for RESTful Web Services (JAX-RS)_ standard. The module ensures the  integration between JAX-RS compliant components with the platform foundation elements and architectural structures (such as Property, PropertyBox and Authentication) and provides support and configuration facilities for popular libraries such as link:https://github.com/jersey/jersey[Jersey], link:http://resteasy.jboss.org[Resteasy] and link:http://swagger.io[Swagger] for API documentation following the *OpenAPI Specification (OAS)*.
@@ -221,6 +260,7 @@ The Holon Platform *JAX-RS* module provides support, services and configuration 
 |link:https://github.com/holon-platform/holon-jaxrs/issues[github.com/holon-platform/holon-jaxrs/issues]
 |===
 
+[[ModuleJDBC]]
 === Holon JDBC
 
 The Holon Platform *JDBC* module represents the platform support for the _Java DataBase Connectivity_ API, dealing with `DataSource` configuration and _multi-tenancy_ support.
@@ -233,6 +273,7 @@ The Holon Platform *JDBC* module represents the platform support for the _Java D
 |link:https://github.com/holon-platform/holon-jdbc/issues[github.com/holon-platform/holon-jdbc/issues]
 |===
 
+[[ModuleJDBCDatastore]]
 === Holon JDBC Datastore
 
 The Holon *JDBC Datastore* module is the _Java DataBase Connectivity_ reference implementation of the link:holon-core.html#Datastore[Datastore] abstraction.
@@ -245,6 +286,7 @@ The Holon *JDBC Datastore* module is the _Java DataBase Connectivity_ reference 
 |link:https://github.com/holon-platform/holon-datastore-jdbc/issues[github.com/holon-platform/holon-datastore-jdbc/issues]
 |===
 
+[[ModuleJPA]]
 === Holon JPA
 
 The Holon Platform *JPA* module contains the base support classes for the _Java Persistence API_. Especially, provides a set of JPA annotations bean post processors to seamlessy use and configure JPA entity beans within the 
@@ -258,6 +300,7 @@ Holon Platform `Property` architecture and bean introspection facilities.
 |link:https://github.com/holon-platform/holon-jpa/issues[github.com/holon-platform/holon-jpa/issues]
 |===
 
+[[ModuleJPADatastore]]
 === Holon JPA Datastore
 
 The Holon *JPA Datastore* module is the _Java Persistence API_ reference implementation of the link:holon-core.html#Datastore[Datastore] abstraction.
@@ -270,6 +313,7 @@ The Holon *JPA Datastore* module is the _Java Persistence API_ reference impleme
 |link:https://github.com/holon-platform/holon-datastore-jpa/issues[github.com/holon-platform/holon-datastore-jpa/issues]
 |===
 
+[[ModuleJDBCDatastoreQueryDSL]]
 === Holon JPA Datastore QueryDSL integration
 
 This module provides a set of link:http://www.querydsl.com[QueryDSL] integration features for the *JPA Datastore* module.
@@ -282,9 +326,10 @@ This module provides a set of link:http://www.querydsl.com[QueryDSL] integration
 |link:https://github.com/holon-platform/holon-datastore-jpa-querydsl/issues[github.com/holon-platform/holon-datastore-jpa-querydsl/issues]
 |===
 
+[[ModuleMongoDBDatastore]]
 === Holon MongoDB Datastore
 
-The Holon *MongoDB Datastore* module is the link:https://www.mongodb.com[MongoDB^] reference implementation of the link:holon-core.html#Datastore[Datastore] abstraction.
+The Holon *MongoDB Datastore* module is the link:https://www.mongodb.com[MongoDB^] reference implementation of the link:holon-core.html#Datastore[Datastore] API, with asynchronous and reactive programming models support.
 
 |===
 |Documentation |Sources |Issues
@@ -294,9 +339,25 @@ The Holon *MongoDB Datastore* module is the link:https://www.mongodb.com[MongoDB
 |link:https://github.com/holon-platform/holon-datastore-mongo/issues[github.com/holon-platform/holon-datastore-mongo/issues]
 |===
 
-=== Holon Vaadin UI
+[[ModuleVaadinFlow]]
+=== Holon Vaadin Flow UI
 
-The Holon Platform *Vaadin* module uses link:https://vaadin.com[Vaadin] to build *User Interfaces* for web applications using _Java_. This module provides integration with platform foundation architecture, a set of components and builders, configuration helpers, a complete link:holon-core.html#Datastore[Datastore] integration with Vaadin data binding and a full support for _virtual_ pages and navigation.
+The Holon Platform *Vaadin Flow* module uses the link:https://vaadin.com/flow[Vaadin Flow^] platform to build *User Interfaces* for web applications using _Java_. This module provides integration with platform foundation architecture, a set of components and builders, configuration helpers, a complete link:holon-core.html#Datastore[Datastore] integration with the Vaadin data binding and a `Navigator` API to provide routing management with query parameters support.
+
+The module is aligned to the last available link:https://github.com/vaadin/platform[Vaadin platform] version.
+
+|===
+|Documentation |Sources |Issues
+
+|link:holon-vaadin-flow.html[html] \| link:pdf/holon-vaadin-flow.pdf[pdf]
+|link:https://github.com/holon-platform/holon-vaadin-flow[github.com/holon-platform/holon-vaadin-flow]
+|link:https://github.com/holon-platform/holon-vaadin-flow/issues[github.com/holon-platform/holon-vaadin-flow/issues]
+|===
+
+[[ModuleVaadin8]]
+=== Holon Vaadin 8 UI
+
+The Holon Platform *Vaadin* module uses link:https://vaadin.com[Vaadin^] version 8+ to build *User Interfaces* for web applications using _Java_. This module provides integration with platform foundation architecture, a set of components and builders, configuration helpers, a complete link:holon-core.html#Datastore[Datastore] integration with Vaadin data binding and a full support for _virtual_ pages and navigation.
 
 This module requires Vaadin version *8.1.x* or higher.
 
@@ -308,9 +369,10 @@ This module requires Vaadin version *8.1.x* or higher.
 |link:https://github.com/holon-platform/holon-vaadin/issues[github.com/holon-platform/holon-vaadin/issues]
 |===
 
+[[ModuleVaadin7]]
 ==== Holon Vaadin 7 compatibility module
 
-A *Vaadin* UI integration module using the version *7* of the Vaadin framework is also available, providing an API almost completely compatible with the official Vaadin (version 8) module.
+A *Vaadin* UI integration module using the version *7* of the link:https://vaadin.com[Vaadin^] framework is also available, providing an API almost completely compatible with the official Vaadin (version 8) module.
 
 |===
 |Documentation |Sources |Issues
@@ -487,6 +549,20 @@ a|`holon-starter-jpa-querydsl-eclipselink`
 a|*JPA configuration and Datastore starter with QueryDSL integration using Eclipselink*
 a|Spring JPA stack, JPA `Datastore` and *QueryDSL* integration auto-configuration starter, using *Eclipselink* as persistence provider.
 |link:holon-datastore-jpa-querydsl.html[Reference]
+
+|link:holon-vaadin-flow.html[Vaadin]
+a|`com.holon-platform.vaadin`
+a|`holon-starter-vaadin-flow`
+a|*Vaadin Flow application starter using Tomcat*
+a|link:https://vaadin.com/flow[Vaadin Flow^] application starter with Holon Platform integration auto-configuration, including `Navigator` and `LocalizationContext` auto-configuration, using *Tomcat* as embedded servlet container.  
+|link:holon-vaadin-flow.html#VaadinSpringBoot[Reference]
+
+|link:holon-vaadin-flow.html[Vaadin]
+a|`com.holon-platform.vaadin`
+a|`holon-starter-vaadin-flow-undertow`
+a|*Vaadin Flow application starter using Undertow*
+a|link:https://vaadin.com/flow[Vaadin Flow^] application starter with Holon Platform integration auto-configuration, including `Navigator` and `LocalizationContext` auto-configuration, using *Undertow* as embedded servlet container.  
+|link:holon-vaadin-flow.html#VaadinSpringBoot[Reference]
 
 |link:holon-vaadin.html[Vaadin]
 a|`com.holon-platform.vaadin`
