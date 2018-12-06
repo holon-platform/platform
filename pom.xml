@@ -65,11 +65,11 @@
 		<bintray.package>platform</bintray.package>
 
 		<!-- Core -->
-		<holon.core.version>5.2.0-beta1-SNAPSHOT</holon.core.version>
+		<holon.core.version>5.2.0-rc1</holon.core.version>
 		<!-- Reactor -->
-		<holon.reactor.version>5.2.0-beta1-SNAPSHOT</holon.reactor.version>
+		<holon.reactor.version>5.2.0-rc1</holon.reactor.version>
 		<!-- JSON -->
-		<holon.json.version>5.2.0-beta1-SNAPSHOT</holon.json.version>
+		<holon.json.version>5.2.0-rc1</holon.json.version>
 		<!-- JAX-RS -->
 		<holon.jaxrs.version>5.2.0-beta1-SNAPSHOT</holon.jaxrs.version>
 		<!-- JDBC -->
