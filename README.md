@@ -1,6 +1,6 @@
 # The Holon Platform
 
-> Latest release: [5.1.4](#obtain-the-artifacts)
+> Latest release: [5.2.0](#obtain-the-artifacts)
 
 The [Holon Platform](https://holon-platform.com) is a __Java__ development ecosystem to create and maintain high quality, enteprise-grade web applications and services.
 
@@ -32,9 +32,9 @@ The Holon Platform is built using __Java 8__, so you need a JRE/JDK version 8 or
 
 See [releases](https://github.com/holon-platform/platform/releases) for the available releases.
 
-#### 5.1.x release notes
+#### 5.2.x release notes
 
-See [What's new in version 5.1.x](https://docs.holon-platform.com/current/reference/#WhatsNew51x) to learn about the new features and API operations of the 5.1 minor release.
+See [What's new in version 5.2.x](https://docs.holon-platform.com/current/reference/#WhatsNew52x) to learn about the new features and API operations of the 5.2 minor release.
 
 ### Platform distribution versioning
 
@@ -62,7 +62,7 @@ _Platform Maven BOM:_
     <dependency>
         <groupId>com.holon-platform</groupId>
         <artifactId>bom</artifactId>
-        <version>5.1.4</version>
+        <version>5.2.0</version>
         <type>pom</type>
         <scope>import</scope>
     </dependency>
@@ -111,6 +111,7 @@ All the [Holon Platform](https://holon-platform.com) modules are _Open Source_ s
 ## Modules
 
 * [Holon Core module](https://github.com/holon-platform/holon-core)
+* [Holon Reactor module](https://github.com/holon-platform/holon-reactor)
 * [Holon JSON module](https://github.com/holon-platform/holon-json)
 * [Holon JAX-RS module](https://github.com/holon-platform/holon-jaxrs)
 * [Holon JDBC module](https://github.com/holon-platform/holon-jdbc)
@@ -118,5 +119,7 @@ All the [Holon Platform](https://holon-platform.com) modules are _Open Source_ s
 * [Holon JDBC Datastore module](https://github.com/holon-platform/holon-datastore-jdbc)
 * [Holon JPA Datastore module](https://github.com/holon-platform/holon-datastore-jpa)
 * [Holon JPA QueryDSL module](https://github.com/holon-platform/holon-datastore-jpa-querydsl)
-* [Holon Vaadin UI module](https://github.com/holon-platform/holon-vaadin)
-* [Holon Vaadin 7 compatibility module](https://github.com/holon-platform/holon-vaadin7)
+* [Holon MongoDB Datastore module](https://github.com/holon-platform/holon-datastore-mongo)
+* [Holon Vaadin Flow module](https://github.com/holon-platform/holon-vaadin-flow)
+* [Holon Vaadin 8 module](https://github.com/holon-platform/holon-vaadin)
+* [Holon Vaadin 7 module](https://github.com/holon-platform/holon-vaadin7)
