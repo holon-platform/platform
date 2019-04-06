@@ -65,7 +65,7 @@
 		<bintray.package>platform</bintray.package>
 
 		<!-- Core -->
-		<holon.core.version>5.2.1</holon.core.version>
+		<holon.core.version>5.2.2</holon.core.version>
 		<!-- Reactor -->
 		<holon.reactor.version>5.2.1</holon.reactor.version>
 		<!-- JSON -->
