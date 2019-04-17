@@ -1,4 +1,6 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
@@ -85,7 +87,7 @@
 		<!-- MongoDB Datastore -->
 		<holon.mongo.datastore.version>5.2.3</holon.mongo.datastore.version>
 		<!-- Vaadin Flow -->
-		<holon.vaadin.flow.version>5.2.6</holon.vaadin.flow.version>
+		<holon.vaadin.flow.version>5.2.7</holon.vaadin.flow.version>
 		<!-- Vaadin -->
 		<holon.vaadin.version>5.2.4</holon.vaadin.version>
 		<!-- Vaadin7 -->
