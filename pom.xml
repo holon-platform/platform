@@ -69,7 +69,7 @@
 		<!-- Reactor -->
 		<holon.reactor.version>5.2.2</holon.reactor.version>
 		<!-- JSON -->
-		<holon.json.version>5.2.2</holon.json.version>
+		<holon.json.version>5.2.3</holon.json.version>
 		<!-- JAX-RS -->
 		<holon.jaxrs.version>5.2.3</holon.jaxrs.version>
 		<!-- JDBC -->
