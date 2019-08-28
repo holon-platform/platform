@@ -32,10 +32,6 @@ The Holon Platform is built using __Java 8__, so you need a JRE/JDK version 8 or
 
 See [releases](https://github.com/holon-platform/platform/releases) for the available releases.
 
-#### 5.2.x release notes
-
-See [What's new in version 5.2.x](https://docs.holon-platform.com/current/reference/#WhatsNew52x) to learn about the new features and API operations of the 5.2 minor release.
-
 ### Platform distribution versioning
 
 The Holon platform use the [Semantic Versioning](http://semver.org) system and each platform _module_ is versioned following the semantic versioning convention.
