@@ -65,6 +65,14 @@ The Holon Platform {revnumber} requires https://www.java.com[Java 8] or above.
 
 Explicit build support is provided for link:https://maven.apache.org[Maven] (3+).
 
+[[WhatsNew53x]]
+== What's new in version 5.3.x
+
+* The <<ModuleVaadinFlow>> module was ugraded to Vaadin 14 LTS release. See link:https://vaadin.com/releases/vaadin-14[Vaadin 14 release notes^].
+
+* What's new in the link:holon-core.html#WhatsNew53x[Core module^]
+* What's new in the link:holon-jaxrs.html#WhatsNew53x[JAX-RS module^]
+
 [[WhatsNew52x]]
 == What's new in version 5.2.x
 
