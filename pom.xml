@@ -85,7 +85,7 @@
 		<!-- MongoDB Datastore -->
 		<holon.mongo.datastore.version>5.5.0</holon.mongo.datastore.version>
 		<!-- Vaadin Flow -->
-		<holon.vaadin.flow.version>5.5.0</holon.vaadin.flow.version>
+		<holon.vaadin.flow.version>5.5.1</holon.vaadin.flow.version>
 		<!-- Vaadin -->
 		<holon.vaadin.version>5.4.0</holon.vaadin.version>
 		<!-- Vaadin7 -->
