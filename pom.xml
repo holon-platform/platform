@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>com.holon-platform</groupId>
 		<artifactId>parent</artifactId>
-		<version>1.1.5</version>
+		<version>1.2.0</version>
 	</parent>
 
 	<artifactId>platform-root</artifactId>
@@ -55,9 +55,8 @@
 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-
-		<java.compiler.source>1.8</java.compiler.source>
-		<java.compiler.target>1.8</java.compiler.target>
+		
+		<maven.compiler.release>11</maven.compiler.release>
 
 		<maven.javadoc.skip>true</maven.javadoc.skip>
 
@@ -65,27 +64,27 @@
 		<bintray.package>platform</bintray.package>
 
 		<!-- Core -->
-		<holon.core.version>5.5.0</holon.core.version>
+		<holon.core.version>5.7.0</holon.core.version>
 		<!-- Reactor -->
-		<holon.reactor.version>5.5.0</holon.reactor.version>
+		<holon.reactor.version>5.7.1</holon.reactor.version>
 		<!-- JSON -->
-		<holon.json.version>5.5.0</holon.json.version>
+		<holon.json.version>5.7.0</holon.json.version>
 		<!-- JAX-RS -->
-		<holon.jaxrs.version>5.5.0</holon.jaxrs.version>
+		<holon.jaxrs.version>5.7.0</holon.jaxrs.version>
 		<!-- JDBC -->
-		<holon.jdbc.version>5.5.0</holon.jdbc.version>
+		<holon.jdbc.version>5.7.0</holon.jdbc.version>
 		<!-- JPA -->
-		<holon.jpa.version>5.5.0</holon.jpa.version>
+		<holon.jpa.version>5.7.0</holon.jpa.version>
 		<!-- JDBC Datastore -->
-		<holon.jdbc.datastore.version>5.5.0</holon.jdbc.datastore.version>
+		<holon.jdbc.datastore.version>5.7.0</holon.jdbc.datastore.version>
 		<!-- JPA Datastore -->
-		<holon.jpa.datastore.version>5.5.0</holon.jpa.datastore.version>
+		<holon.jpa.datastore.version>5.7.0</holon.jpa.datastore.version>
 		<!-- JPA Datastore QueryDSL -->
-		<holon.jpa.datastore.querydsl.version>5.5.0</holon.jpa.datastore.querydsl.version>
+		<holon.jpa.datastore.querydsl.version>5.7.0</holon.jpa.datastore.querydsl.version>
 		<!-- MongoDB Datastore -->
-		<holon.mongo.datastore.version>5.5.0</holon.mongo.datastore.version>
+		<holon.mongo.datastore.version>5.7.0</holon.mongo.datastore.version>
 		<!-- Vaadin Flow -->
-		<holon.vaadin.flow.version>5.5.3</holon.vaadin.flow.version>
+		<holon.vaadin.flow.version>5.7.1</holon.vaadin.flow.version>
 		<!-- Vaadin -->
 		<holon.vaadin.version>5.4.0</holon.vaadin.version>
 		<!-- Vaadin7 -->
