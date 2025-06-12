@@ -114,8 +114,8 @@ All the [Holon Platform](https://holon-platform.com) modules are _Open Source_ s
 * [Holon JPA module](https://github.com/holon-platform/holon-jpa)
 * [Holon JDBC Datastore module](https://github.com/holon-platform/holon-datastore-jdbc)
 * [Holon JPA Datastore module](https://github.com/holon-platform/holon-datastore-jpa)
-* [Holon JPA QueryDSL module](https://github.com/holon-platform/holon-datastore-jpa-querydsl)
+* [Holon JPA QueryDSL module](https://github.com/holon-platform/holon-datastore-jpa-querydsl) Last compatible version: 5.7.0 
 * [Holon MongoDB Datastore module](https://github.com/holon-platform/holon-datastore-mongo)
 * [Holon Vaadin Flow module](https://github.com/holon-platform/holon-vaadin-flow)
-* [Holon Vaadin 8 module](https://github.com/holon-platform/holon-vaadin)
-* [Holon Vaadin 7 module](https://github.com/holon-platform/holon-vaadin7)
+* [Holon Vaadin 8 module](https://github.com/holon-platform/holon-vaadin) Last compatible version: 5.4.0 
+* [Holon Vaadin 7 module](https://github.com/holon-platform/holon-vaadin7) Last compatible version: 5.2.4 
