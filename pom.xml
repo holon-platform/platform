@@ -1,10 +1,12 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<parent>
 		<groupId>com.holon-platform</groupId>
 		<artifactId>parent</artifactId>
-		<version>1.2.0</version>
+		<version>2.0.0</version>
 	</parent>
 
 	<artifactId>platform-root</artifactId>
@@ -47,7 +49,8 @@
 	<scm>
 		<connection>scm:git:https://github.com/holon-platform/platform.git</connection>
 		<url>https://github.com/holon-platform/platform</url>
-		<developerConnection>scm:git:https://github.com/holon-platform/platform.git</developerConnection>
+		<developerConnection>
+			scm:git:https://github.com/holon-platform/platform.git</developerConnection>
 		<tag>HEAD</tag>
 	</scm>
 
@@ -55,8 +58,8 @@
 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		
-		<maven.compiler.release>11</maven.compiler.release>
+
+		<maven.compiler.release>21</maven.compiler.release>
 
 		<maven.javadoc.skip>true</maven.javadoc.skip>
 
@@ -64,27 +67,28 @@
 		<bintray.package>platform</bintray.package>
 
 		<!-- Core -->
-		<holon.core.version>5.7.0</holon.core.version>
+		<holon.core.version>6.0.0</holon.core.version>
 		<!-- Reactor -->
-		<holon.reactor.version>5.7.1</holon.reactor.version>
+		<holon.reactor.version>6.0.0</holon.reactor.version>
 		<!-- JSON -->
-		<holon.json.version>5.7.0</holon.json.version>
+		<holon.json.version>6.0.0</holon.json.version>
 		<!-- JAX-RS -->
-		<holon.jaxrs.version>5.7.0</holon.jaxrs.version>
+		<holon.jaxrs.version>6.0.0</holon.jaxrs.version>
 		<!-- JDBC -->
-		<holon.jdbc.version>5.7.0</holon.jdbc.version>
+		<holon.jdbc.version>6.0.0</holon.jdbc.version>
 		<!-- JPA -->
-		<holon.jpa.version>5.7.0</holon.jpa.version>
+		<holon.jpa.version>6.0.0</holon.jpa.version>
 		<!-- JDBC Datastore -->
-		<holon.jdbc.datastore.version>5.7.0</holon.jdbc.datastore.version>
+		<holon.jdbc.datastore.version>6.0.0</holon.jdbc.datastore.version>
 		<!-- JPA Datastore -->
-		<holon.jpa.datastore.version>5.7.0</holon.jpa.datastore.version>
+		<holon.jpa.datastore.version>6.0.0</holon.jpa.datastore.version>
+		<!-- MongoDB Datastore -->
+		<holon.mongo.datastore.version>6.0.0</holon.mongo.datastore.version>
+		<!-- Vaadin Flow -->
+		<holon.vaadin.flow.version>6.0.0</holon.vaadin.flow.version>
+
 		<!-- JPA Datastore QueryDSL -->
 		<holon.jpa.datastore.querydsl.version>5.7.0</holon.jpa.datastore.querydsl.version>
-		<!-- MongoDB Datastore -->
-		<holon.mongo.datastore.version>5.7.0</holon.mongo.datastore.version>
-		<!-- Vaadin Flow -->
-		<holon.vaadin.flow.version>5.7.1</holon.vaadin.flow.version>
 		<!-- Vaadin -->
 		<holon.vaadin.version>5.4.0</holon.vaadin.version>
 		<!-- Vaadin7 -->

@@ -1,12 +1,12 @@
 # The Holon Platform
 
-> Latest release: [5.7.0](#obtain-the-artifacts)
+> Latest release: [6.0.0](#obtain-the-artifacts)
 
 The [Holon Platform](https://holon-platform.com) is a __Java__ development ecosystem to create and maintain high quality, enteprise-grade web applications and services.
 
 Some of the main platform key points are:
 
-* __Provides "real" Java API__: the Holon platform is designed as a real Java API, with the aim to leverage all new Java 11 features and to create strong abstraction layers to ensure implementation details encapsulation, high productivity and long-term maintanability with a minimal application upgrade effort to follow the platform evolution.
+* __Provides "real" Java API__: the Holon platform is designed as a real Java API, with the aim to leverage all new Java 21 features and to create strong abstraction layers to ensure implementation details encapsulation, high productivity and long-term maintanability with a minimal application upgrade effort to follow the platform evolution.
 
 * It's __modular and full-stack__ at the same time: the Holon platform provides a full-stack application development environment, but you can select only the components or modules you need and replace or extend them leveraging on the high configurability and extensibility features ensured by the platform architecture.
 
@@ -26,7 +26,7 @@ See [Holon Platform code structure and conventions](CODING.md) to learn about th
 
 ### System requirements
 
-The Holon Platform is built using __Java 11__, so you need a JRE/JDK version 11 or above to use the platform artifacts.
+The Holon Platform is built using __Java 21__, so you need a JRE/JDK version 21 or above to use the platform artifacts.
 
 ### Releases
 
@@ -58,7 +58,7 @@ _Platform Maven BOM:_
     <dependency>
         <groupId>com.holon-platform</groupId>
         <artifactId>bom</artifactId>
-        <version>5.7.0</version>
+        <version>6.0.0</version>
         <type>pom</type>
         <scope>import</scope>
     </dependency>

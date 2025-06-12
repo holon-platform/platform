@@ -17,12 +17,14 @@
 			<directory>target/generated-docs</directory>
 			<outputDirectory>reference</outputDirectory>
 			<excludes>
+				<exclude>**/*</exclude>
 				<exclude>index.pdf</exclude>
 			</excludes>
 		</fileSet>
 
 		<fileSet>
-			<directory>target/maven-shared-archive-resources/documentation</directory>
+			<directory>target/maven-shared-archive-resources/documentation
+			</directory>
 			<outputDirectory>reference</outputDirectory>
 			<includes>
 				<include>**/*.css</include>
@@ -30,13 +32,23 @@
 		</fileSet>
 
 		<fileSet>
-			<directory>target/maven-shared-archive-resources/documentation</directory>
+			<directory>target/maven-shared-archive-resources/documentation
+			</directory>
 			<outputDirectory>reference/images</outputDirectory>
 			<includes>
 				<include>**/*.png</include>
 				<include>**/*.jpg</include>
 			</includes>
 		</fileSet>
+
+		<fileSet>
+			<directory>${project.build.directory}</directory>
+			<outputDirectory>empty_folder</outputDirectory>
+			<excludes>
+				<exclude>**/*</exclude>
+			</excludes>
+		</fileSet>
+
 	</fileSets>
 
 	<dependencySets>
@@ -142,21 +154,24 @@
 		</dependencySet>
 		<dependencySet>
 			<includes>
-				<include>com.holon-platform.vaadin:holon-vaadin-flow-root:zip:apidocs</include>
+				<include>com.holon-platform.vaadin:holon-vaadin-flow-root:zip:apidocs
+				</include>
 			</includes>
 			<outputDirectory>api/holon-vaadin-flow</outputDirectory>
 			<unpack>true</unpack>
 		</dependencySet>
 		<dependencySet>
 			<includes>
-				<include>com.holon-platform.vaadin:holon-vaadin-root:zip:apidocs</include>
+				<include>com.holon-platform.vaadin:holon-vaadin-root:zip:apidocs
+				</include>
 			</includes>
 			<outputDirectory>api/holon-vaadin</outputDirectory>
 			<unpack>true</unpack>
 		</dependencySet>
 		<dependencySet>
 			<includes>
-				<include>com.holon-platform.vaadin7:holon-vaadin-root:zip:apidocs</include>
+				<include>com.holon-platform.vaadin7:holon-vaadin-root:zip:apidocs
+				</include>
 			</includes>
 			<outputDirectory>api/holon-vaadin7</outputDirectory>
 			<unpack>true</unpack>
