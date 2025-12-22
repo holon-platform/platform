@@ -4,7 +4,7 @@
 	<parent>
 		<groupId>com.holon-platform</groupId>
 		<artifactId>parent</artifactId>
-		<version>2.0.0</version>
+		<version>2.0.1</version>
 	</parent>
 
 	<artifactId>platform-root</artifactId>
@@ -65,25 +65,25 @@
 		<bintray.package>platform</bintray.package>
 
 		<!-- Core -->
-		<holon.core.version>6.0.0</holon.core.version>
+		<holon.core.version>6.0.1</holon.core.version>
 		<!-- Reactor -->
-		<holon.reactor.version>6.0.0</holon.reactor.version>
+		<holon.reactor.version>6.0.1</holon.reactor.version>
 		<!-- JSON -->
-		<holon.json.version>6.0.0</holon.json.version>
+		<holon.json.version>6.0.1</holon.json.version>
 		<!-- JAX-RS -->
-		<holon.jaxrs.version>6.0.0</holon.jaxrs.version>
+		<holon.jaxrs.version>6.0.1</holon.jaxrs.version>
 		<!-- JDBC -->
-		<holon.jdbc.version>6.0.0</holon.jdbc.version>
+		<holon.jdbc.version>6.0.1</holon.jdbc.version>
 		<!-- JPA -->
-		<holon.jpa.version>6.0.0</holon.jpa.version>
+		<holon.jpa.version>6.0.1</holon.jpa.version>
 		<!-- JDBC Datastore -->
-		<holon.jdbc.datastore.version>6.0.0</holon.jdbc.datastore.version>
+		<holon.jdbc.datastore.version>6.0.1</holon.jdbc.datastore.version>
 		<!-- JPA Datastore -->
-		<holon.jpa.datastore.version>6.0.0</holon.jpa.datastore.version>
+		<holon.jpa.datastore.version>6.0.1</holon.jpa.datastore.version>
 		<!-- MongoDB Datastore -->
-		<holon.mongo.datastore.version>6.0.0</holon.mongo.datastore.version>
+		<holon.mongo.datastore.version>6.0.1</holon.mongo.datastore.version>
 		<!-- Vaadin Flow -->
-		<holon.vaadin.flow.version>6.0.1</holon.vaadin.flow.version>
+		<holon.vaadin.flow.version>6.0.2</holon.vaadin.flow.version>
 
 		<!-- JPA Datastore QueryDSL -->
 		<holon.jpa.datastore.querydsl.version>5.7.0</holon.jpa.datastore.querydsl.version>
