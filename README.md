@@ -1,6 +1,6 @@
 # The Holon Platform
 
-> Latest release: [6.0.2](#obtain-the-artifacts)
+> Latest release: [6.0.3](#obtain-the-artifacts)
 
 The [Holon Platform](https://holon-platform.com) is a __Java__ development ecosystem to create and maintain high quality, enteprise-grade web applications and services.
 
@@ -58,7 +58,7 @@ _Platform Maven BOM:_
     <dependency>
         <groupId>com.holon-platform</groupId>
         <artifactId>bom</artifactId>
-        <version>6.0.2</version>
+        <version>6.0.3</version>
         <type>pom</type>
         <scope>import</scope>
     </dependency>
